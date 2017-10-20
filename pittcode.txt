@@ -1,0 +1,614 @@
+ process pgmname(mixed) typechk test
+	IDENTIFICATION DIVISION.
+	PROGRAM-ID.			"Client".
+	AUTHOR.					Robert A. Pittman, Jr.
+INSTALLATION.			IBM Corporation.
+***************************************************************
+*  Client:								*
+*												*
+*    Functions performed:			*
+*      Initializes the work fields for the valet object's	*
+*				attributes.				*
+*      Opens the input file.		*
+*				If open fails:			*
+*					terminate run.			*
+*      Obtains a pointer to the SOM global environment	*
+*					variable.				*
+*      Creates a valet object and sets its attributes.	*
+*      Reads the first record on the input file.	*
+*												*
+*      Loop: until end-of-file on the input file is reached:	* 
+*				Case:  park-car record.	*
+*					Sets the work area pointers to address of related	*
+*						working-storage data items.	*
+*					Initializes work area fields and lengths.	*
+*					Unstrings the input record into work area fields.	*
+*					Creates a car object with those attributes.	*
+*					Requests the valet object to park the car.	*
+*					Obtains the attributes of the car object:	*
+*						The returned pointer, a general work field, and	*
+*							the target work field are passed to a performed	*
+*							paragraph which copies the attribute to the	*
+*							target work field.	*
+*						The length of the attribute is then determined.	*
+*					Obtains the slot number from the ticket object	*
+*						returned by the valet object.	*
+*					Displays an informative message to the system	*
+*						user.				*
+*					Destroy the ticket object.	*
+*												*
+*        Case:  retrieve-car record.	*
+*				Copies the slot number on the input record to a	*
+*					work field.			*
+*				Creates a ticket object and sets its attribute to	*
+*					the slot number from the input record.	*
+*				Requests the valet object to retrieve the car	*
+*					from the slot number of the ticket object.	*
+*				Checks to see if a car object was returned:	*
+*					Case:  valid car object.	*
+*						Obtains the attributes of the car object:	*
+*							The returned pointer, a general work field,	*
+*								and the target work field are passed to	*
+*								a performed paragraph which copies the	*
+*								attribute to the target work field.	*
+*		          	The length of the attribute is then	*
+*								determined.	*
+*						The slot number is obtained from the ticket	*
+*							object.			*
+*						An informative message is displayed to the	*
+*							system user.		*
+*						Destroy the car object.	*
+*												*
+*					Case:  invalid car object:	*
+*						An informative message is sent to the system	*
+*							user.			*
+*					Case:  other:			*
+*						Send a message to the system user.	*
+*					End-case.				*
+*				Destroy the ticket object.	*
+*												*
+*			Case:  other record.		*
+*		    Display bad record message to system user.	*
+*			End-case.						*
+*			Read next record on input file.	*
+*		End-loop.							*
+*												*
+*		Close the input file.			*
+*		Destroy the valet object.	*
+*		Terminate program.			*
+*												*
+*	Execution notes:					*
+*		The environment variable "CARS" must be set to the	*
+*		input file name.				*
+*												*
+*	Input file layout:				*
+*		The file format of CAR.SCR should be as follows:	*
+*		(Note the '|' is used as a delimiter.)	*
+*		   P|Blue|Buick|LeSabre		*
+*		   P|Black|Pontiac|Trans AM	*
+*		   R|1								*
+*		   R|0								*
+*												*
+*		The P record (park a car) is organized as follows:	*
+*		   P|color|make|model			*
+*												*
+*		The R record (retrieve a car) is organized as follows:	*
+*		   R|slot number				*
+*												*
+******************************************************************
+
+ENVIRONMENT DIVISION.
+CONFIGURATION SECTION.
+
+******************************************************************
+*	Define the classes needed from the repository.	*
+****************************************************************** 
+REPOSITORY.
+	CLASS Car               IS "Car"
+	CLASS Ticket            IS "Ticket"
+	CLASS Valet             IS "Valet".
+******************************************************************
+*	Define the input file.			*
+******************************************************************
+INPUT-OUTPUT SECTION.
+FILE-CONTROL.
+	SELECT  CAR-FILE	ASSIGN TO CARS
+								FILE STATUS IS WS-STATUS-FLAG
+								ORGANIZATION IS LINE SEQUENTIAL.
+DATA DIVISION.
+FILE SECTION.
+FD  CAR-FILE
+	RECORDING MODE IS F
+	RECORD CONTAINS 80.
+01  CAR-RECORD			PIC X(80).
+
+WORKING-STORAGE SECTION.
+
+******************************************************************
+*	Define variables, switches, flags, etc.	*
+******************************************************************
+01  WS-STATUS-FLAG		PIC XX.
+01  WS-EOF-FLAG			PIC X.
+	88  NOT-EOF					VALUE LOW-VALUE.
+	88  IS-EOF					VALUE HIGH-VALUE.
+
+******************************************************************
+*	Layout of input record.			*
+******************************************************************
+01	WS-CAR-RECORD.
+	05	WS-CR-ACTION			PIC X.
+		88	PARK-CAR				VALUE "P".
+		88	RETRIEVE-CAR			VALUE "R".
+	05	WS-CR-DELIMITER	PIC X.
+	05	WS-CR-DESCRIPTOR	PIC X(78).
+
+******************************************************************
+*	SOM global environment variable.	*
+******************************************************************
+01	WS-ev					USAGE POINTER.
+
+******************************************************************
+*	Define the object handles.		*
+******************************************************************
+01	carObj					USAGE OBJECT REFERENCE Car.
+01	ticketObj				USAGE OBJECT REFERENCE Ticket.
+01	valetObj				USAGE OBJECT REFERENCE Valet.
+
+******************************************************************
+*	Work areas for the valet object's attributes.	*
+******************************************************************
+01	WS-VN-POINTER		USAGE POINTER.
+01	WS-VALET-NAME.
+	05	WS-VN-LL				PIC S9(4)   COMP-5.
+	05	WS-VN-NAME			PIC X(40).
+	01	WS-VALET-ID			PIC S9(8)   COMP-5.
+
+******************************************************************
+*	Work areas for car object's color attribute.	*
+******************************************************************
+01	WS-CC-POINTER		USAGE POINTER.
+01	WS-CAR-COLOR.
+	05	WS-CC-LL				PIC 9(4)    COMP-5.
+	05	WS-COLOR				PIC X(20).
+	05	WS-COLOR-R		REDEFINES WS-COLOR.
+		10	WS-CCR-BYTE		PIC X
+								OCCURS 20
+								INDEXED BY WS-CCR-INDEX.
+
+******************************************************************
+*	Work areas for car object's make attribute.	*
+******************************************************************
+01	WS-CM-POINTER		USAGE POINTER.
+01	WS-CAR-MAKE.
+	05	WS-CM-LL				PIC 9(4)    COMP-5.
+	05	WS-MAKE					PIC X(20).
+	05	WS-MAKE-R			REDEFINES WS-MAKE.
+		10	WS-CMR-BYTE		PIC X
+								OCCURS 20
+								INDEXED BY WS-CMR-INDEX.
+
+******************************************************************
+*	Work areas for car object's model attribute.	*
+******************************************************************
+01	WS-CD-POINTER		USAGE POINTER.
+01	WS-CAR-MODEL.
+	05	WS-CD-LL				PIC 9(4)    COMP-5.
+	05	WS-MODEL				PIC X(20).
+	05	WS-MODEL-R		REDEFINES WS-MODEL.
+		10	WS-CDR-BYTE		PIC X
+								OCCURS 20
+								INDEXED BY WS-CDR-INDEX.
+
+******************************************************************
+*	Work areas for ticket object's slot attribute.	*
+******************************************************************
+01	WS-SLOT						PIC S9(8)   COMP-5.
+01	WS-SLOT-D					PIC ZZZZZZZ9.
+
+******************************************************************
+*	Other stuff.							*
+******************************************************************
+01	WS-JUNK						PIC X.
+01	WS-WORK-ATTR				PIC X(20).
+01	theValidFlag				PIC X.
+	88	Is-False					VALUE X"00".
+	88	Is-True						VALUE X"01".
+LINKAGE SECTION.
+
+******************************************************************
+*	Define a general work area.		*
+******************************************************************
+01	LS-WORK-AREA				PIC X(100).
+
+PROCEDURE DIVISION		    USING LS-WORK-AREA.
+
+******************************************************************
+*	Initialize fields and work areas.  Valet name is padded	*
+*	with low values for C++'s null character for string	*
+*	termination.							*
+****************************************************************** 
+	MOVE Z"Fritz von Hochsmeier" TO WS-VN-NAME.
+	MOVE +21							  TO WS-VN-LL.
+	MOVE 1								  TO WS-VALET-ID.
+
+	MOVE LOW-VALUE					  TO WS-EOF-FLAG.
+
+	SET WS-VN-POINTER TO ADDRESS OF WS-VN-NAME.
+
+******************************************************************
+*	Open the input file and see if the open was OK.	*
+*	Terminate the run if the open failed.	*
+****************************************************************** 
+	OPEN INPUT CAR-FILE.
+	IF WS-STATUS-FLAG NOT = "00"
+		THEN DISPLAY "Error opening CARS input file"
+				DISPLAY "File Status:  " WS-STATUS-FLAG
+				DISPLAY "Run terminated"
+				STOP RUN.
+
+******************************************************************
+*	Obtain a pointer to SOM's global environment variable.	*
+****************************************************************** 
+	CALL "somGetGlobalEnvironment"     RETURNING WS-ev.
+
+******************************************************************
+*	Create a valet object.			*
+****************************************************************** 
+	INVOKE Valet		"somNew"    RETURNING valetObj.
+
+******************************************************************
+*	Set the valet object's name attribute, pass a pointer	*
+*	the name work area.				*
+****************************************************************** 
+	INVOKE valetObj	"_set_valetName"
+								USING BY VALUE   WS-ev
+											       WS-VN-POINTER.
+
+******************************************************************
+*	Set the valet object's ID attribute.	*
+****************************************************************** 
+	INVOKE valetObj	"_set_valetID"
+								USING BY VALUE   WS-ev
+											       WS-VALET-ID.
+
+******************************************************************
+*	Read the first record from the input file.	*
+****************************************************************** 
+	READ CAR-FILE INTO WS-CAR-RECORD
+		AT END MOVE HIGH-VALUE TO WS-EOF-FLAG.
+
+******************************************************************
+*	Loop until end-of-file is reached on the input file.	*
+****************************************************************** 
+	PERFORM UNTIL IS-EOF
+		EVALUATE TRUE
+
+******************************************************************
+*	Park car logic.					*
+****************************************************************** 
+			WHEN PARK-CAR
+
+******************************************************************
+*	Initialize the pointers to point to the appropriate	*
+*	working storage work areas.		*
+****************************************************************** 
+				SET WS-CC-POINTER   TO ADDRESS OF WS-COLOR 
+				SET WS-CM-POINTER   TO ADDRESS OF WS-MAKE 
+				SET WS-CD-POINTER   TO ADDRESS OF WS-MODEL
+
+******************************************************************
+*	Initialize the length fields for the work areas.	*
+****************************************************************** 
+				MOVE ZEROES         TO WS-CC-LL
+											   WS-CM-LL
+											   WS-CD-LL 
+
+******************************************************************
+*	Unstring the input record descriptor into the proper	*
+*	work areas for the car object's attributes.	*
+******************************************************************
+				UNSTRING WS-CR-DESCRIPTOR
+							DELIMITED BY "|"
+					INTO	WS-COLOR	DELIMITER IN WS-JUNK 
+										COUNT     IN WS-CC-LL
+							WS-MAKE	DELIMITER IN WS-JUNK
+										COUNT     IN WS-CM-LL
+							WS-MODEL DELIMITER  IN WS-JUNK 
+										COUNT     IN WS-CD-LL
+				END-UNSTRING
+
+******************************************************************
+*	Find the end of the data in the fields and then put a	*
+*	null character one byte past it.  Adjust the length	*
+*	to include the null.  This is needed since unstring	*
+*	blank pads the receiving fields.	*
+******************************************************************
+				IF WS-CC-LL < 20
+					THEN MOVE LOW-VALUE TO
+								WS-COLOR ((WS-CC-LL + 1):1)
+				END-IF
+
+				IF WS-CM-LL < 20
+					THEN MOVE LOW-VALUE TO
+								WS-MAKE ((WS-CM-LL + 1):1)
+				END-IF
+
+				PERFORM VARYING WS-CDR-INDEX
+							FROM 20 BY -1
+						UNTIL WS-CDR-BYTE (WS-CDR-INDEX)
+										> SPACE
+					SET WS-CD-LL	TO WS-CDR-INDEX
+					IF WS-CD-LL < 20
+						THEN MOVE LOW-VALUE TO
+								WS-MODEL (WS-CD-LL:1)
+					END-IF
+				END-PERFORM
+
+******************************************************************
+*	Create a car object.			*
+****************************************************************** 
+				INVOKE Car	"somNew" RETURNING carObj
+
+******************************************************************
+*	Set the car object's attributes to the values from the	*
+*	input record.						*
+****************************************************************** 
+				INVOKE carObj "_set_color"
+						USING BY VALUE	WS-ev
+											WS-CC-POINTER
+				INVOKE carObj "_set_make"
+						USING BY VALUE	WS-ev
+											WS-CM-POINTER
+				INVOKE carObj "_set_model"
+						USING BY VALUE	WS-ev
+											WS-CD-POINTER
+
+******************************************************************
+*	Park the car in the garage via the parkCar method of the	*
+*	valet object.						*
+****************************************************************** 
+				INVOKE valetObj "parkCar"
+						USING BY VALUE	WS-ev
+											carObj
+						RETURNING		ticketObj
+
+******************************************************************
+*	Get the color attribute of the car.	*
+****************************************************************** 
+				INVOKE carObj "_get_color"
+						USING BY VALUE	WS-ev
+						RETURNING		WS-CC-POINTER
+				PERFORM GET-COLOR
+
+******************************************************************
+*	Get the make attribute of the car.	*
+****************************************************************** 
+				INVOKE carObj "_get_make"
+						USING BY VALUE	WS-ev
+						RETURNING		WS-CM-POINTER
+				PERFORM GET-MAKE
+
+******************************************************************
+*	Get the model attribute of the car.	*
+****************************************************************** 
+				INVOKE carObj "_get_model"
+						USING BY VALUE	WS-ev
+						RETURNING		WS-CD-POINTER
+				PERFORM GET-MODEL
+
+******************************************************************
+*	Get the slot number the car was parked in from the	*
+*	ticket object returned by the valet object's parkCar	*
+*	method.									*
+****************************************************************** 
+				INVOKE ticketObj "_get_parkingSlotNum"
+						USING BY VALUE	WS-ev
+						RETURNING		WS-SLOT
+
+******************************************************************
+*	Display the information to the system user.	*
+****************************************************************** 
+				MOVE WS-SLOT TO WS-SLOT-D
+				DISPLAY	"===> The "	WS-COLOR (1:WS-CC-LL)
+							" "			WS-MAKE  (1:WS-CM-LL)
+							" "			WS-MODEL (1:WS-CD-LL)
+							" was parked in slot "
+											WS-SLOT-D
+******************************************************************
+*	Adios, ticket object.			*
+****************************************************************** 
+				INVOKE ticketObj "somFree"
+
+******************************************************************
+*	Retrieve car logic.				*
+****************************************************************** 
+			WHEN RETRIEVE-CAR
+
+******************************************************************
+*	Get the slot number from the input record descriptor.	*
+****************************************************************** 
+				COMPUTE WS-SLOT =
+						FUNCTION NUMVAL (WS-CR-DESCRIPTOR)
+
+******************************************************************
+*	Create a ticket object.			*
+****************************************************************** 
+				INVOKE Ticket "somNew" RETURNING ticketObj
+
+******************************************************************
+*	Set its slot number attribute to the value from the	*
+*	input record.						*
+******************************************************************
+				INVOKE ticketObj "_set_parkingSlotNum"
+						USING BY VALUE WS-ev 
+											WS-SLOT
+
+******************************************************************
+*	Get the car from the garage with the valet object's	*
+*	retrieveCar method.				*
+****************************************************************** 
+				INVOKE valetObj  "retrieveCar"
+						USING BY VALUE WS-ev
+											ticketObj
+						RETURNING		carObj
+
+******************************************************************
+*	See if a car was returned.		*
+****************************************************************** 
+				CALL "somIsObj"	USING BY VALUE carObj 
+										RETURNING theValidFlag
+
+******************************************************************
+*	A car object was indeed returned.	*
+******************************************************************
+				IF Is-True
+
+******************************************************************
+*	Get its color attribute.			*
+****************************************************************** 
+					THEN INVOKE carObj "_get_color"
+							USING BY VALUE   WS-ev
+							RETURNING        WS-CC-POINTER
+						PERFORM GET-COLOR
+******************************************************************
+*	Get its make attribute.			*
+****************************************************************** 
+					INVOKE carObj "_get_make"
+							USING BY VALUE   WS-ev
+							RETURNING        WS-CM-POINTER
+						PERFORM GET-MAKE
+******************************************************************
+*	Get its model attribute.			*
+****************************************************************** 
+					INVOKE carObj "_get_model"
+							USING BY VALUE   WS-ev
+							RETURNING        WS-CD-POINTER
+						PERFORM GET-MODEL
+
+******************************************************************
+*	Get the parking slot number from the ticket object.	*
+****************************************************************** 
+						INVOKE ticketObj "_get_parkingSlotNum" 
+							USING BY VALUE   WS-ev
+							RETURNING        WS-SLOT
+
+******************************************************************
+*	Display a message to the system user.	*
+****************************************************************** 
+						MOVE WS-SLOT TO WS-SLOT-D
+						DISPLAY "<=== The "
+									WS-COLOR (1:WS-CC-LL)
+								" "
+									WS-MAKE  (1:WS-CM-LL)
+								" "
+									WS-MODEL (1:WS-CD-LL)
+								" was retrieved from slot "
+									WS-SLOT-D
+
+******************************************************************
+*	Free the car object.			*
+****************************************************************** 
+						INVOKE carObj    "somFree"
+				ELSE 
+*******************************************************************
+	Bummer, the car's not there.	*
+******************************************************************
+					IF Is-False
+
+******************************************************************
+*	Tell the irate customer his car has been lost.	*
+****************************************************************** 
+						THEN MOVE WS-SLOT TO WS-SLOT-D
+							DISPLAY "   ***   The vehicle is miss -	
+							"ing in slot " WS-SLOT-D
+					ELSE
+						DISPLAY "somIsObj - unexpected value"
+					END-IF
+				END-IF
+
+******************************************************************
+*	Destroy the ticket object created.	*
+****************************************************************** 
+				INVOKE ticketObj "somFree"
+
+******************************************************************
+*	Bad record on input file.		*
+****************************************************************** 
+			WHEN OTHER
+				DISPLAY "Invalid record encountered: "
+							WS-CAR-RECORD
+		END-EVALUATE
+
+******************************************************************
+*	Read another record.			*
+****************************************************************** 
+		READ CAR-FILE INTO WS-CAR-RECORD
+			AT END MOVE HIGH-VALUE TO WS-EOF-FLAG
+		END-READ
+	END-PERFORM.
+
+******************************************************************
+*	Close the input file.			*
+****************************************************************** 
+	CLOSE CAR-FILE.
+
+******************************************************************
+*	The valet clocks out and closes the garage.	*
+****************************************************************** 
+	INVOKE valetObj "somFree".
+
+******************************************************************
+*	Program termination.			*
+****************************************************************** 
+	STOP RUN.
+
+******************************************************************
+*	Performed paragraphs.			*
+****************************************************************** 
+	GET-COLOR.
+
+******************************************************************
+*	Gets the color work area from the value pointed to by the	*
+*	pointer returned by the car object's get color method.	*
+******************************************************************
+	SET ADDRESS OF LS-WORK-AREA TO WS-CC-POINTER.
+	MOVE LS-WORK-AREA           TO WS-COLOR.
+	PERFORM VARYING WS-CCR-INDEX
+			FROM 1 BY 1
+			UNTIL WS-CCR-BYTE (WS-CCR-INDEX) < SPACE
+				OR WS-CCR-INDEX > 20
+		SET WS-CC-LL TO WS-CCR-INDEX
+	END-PERFORM.
+
+GET-MAKE. 
+******************************************************************
+*	Gets the make work area from the value pointed to by the 	*
+*	pointer returned by the car object's get make method.    	*
+******************************************************************
+	SET ADDRESS OF LS-WORK-AREA TO WS-CM-POINTER.
+	MOVE LS-WORK-AREA           TO WS-MAKE.
+	PERFORM VARYING WS-CMR-INDEX
+			FROM 1 BY 1
+			UNTIL WS-CMR-BYTE (WS-CMR-INDEX) < SPACE
+				OR WS-CMR-INDEX > 20
+		SET WS-CM-LL TO WS-CMR-INDEX
+	END-PERFORM.
+GET-MODEL. 
+
+******************************************************************
+*	Gets the model work area from the value pointed to by the	*
+*	pointer returned by the car object's get model method.   	*
+******************************************************************
+	SET ADDRESS OF LS-WORK-AREA TO WS-CD-POINTER.
+	MOVE LS-WORK-AREA           TO WS-MODEL.
+	PERFORM VARYING WS-CDR-INDEX
+			FROM 1 BY 1
+			UNTIL WS-CDR-BYTE (WS-CDR-INDEX) < SPACE
+				OR WS-CDR-INDEX > 20
+		SET WS-CD-LL TO WS-CDR-INDEX
+	END-PERFORM.
+
+******************************************************************
+*	The code stops here.                                     	*
+******************************************************************
+END PROGRAM "Client".

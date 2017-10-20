@@ -1,0 +1,12 @@
+LIBRARY hello2 INITINSTANCE
+DESCRIPTION 'HelloPart Class Library'
+PROTMODE
+STACKSIZE 32000
+DATA MULTIPLE NONSHARED LOADONCALL
+EXPORTS
+   HelloPartCClassData
+   HelloPartClassData
+   HelloPartNewClass
+   M_HelloPartCClassData
+   M_HelloPartClassData
+   M_HelloPartNewClass

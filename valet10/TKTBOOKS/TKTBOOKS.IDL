@@ -1,0 +1,25 @@
+#include <somobj.idl>
+//#include <Ticket.idl>
+
+interface Ticket;
+interface Garage;
+
+interface TktBookS : SOMObject
+{
+ Ticket getTicket(in Garage aGarage);
+
+ #ifdef __SOMIDL__
+ implementation
+   {
+    passthru C_xh =               "#include <ticket.xh>"
+                                  "#include <garage.xh>";
+    long nextTicketNum;
+    dllname = "TktBookS.dll";
+    releaseorder : deleteTicket,getTicket;
+    somDefaultInit : override, init;
+    somDestruct : override;
+   };
+ #endif
+};
+
+

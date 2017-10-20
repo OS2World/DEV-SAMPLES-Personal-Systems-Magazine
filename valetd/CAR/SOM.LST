@@ -1,0 +1,8459 @@
+Licensed Materials - Property of IBM
+IBM Library Manager Version 1.1
+(C) Copyright IBM Corp., 1991, 1993.  All Rights Reserved.
+US Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corp.
+
+Library name : D:\CODE\VALET2\CAR\somtk1.lib
+
+Listing detail level : 1
+
+
+00000:somtaddEntry (OFFSET:0x00000010, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00001:somtaddExt (OFFSET:0x00000050, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00002:somtaddGAtt (OFFSET:0x00000080, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00003:somtaddHeader (OFFSET:0x000000b0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00004:somtaddstar (OFFSET:0x000000f0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00005:somtallocBuf (OFFSET:0x00000120, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00006:somtallocDataList (OFFSET:0x00000160, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00007:somtallocMethodList (OFFSET:0x000001a0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00008:somtargFlag (OFFSET:0x000001e0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00009:somtattNormalise (OFFSET:0x00000210, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00010:somtattalloc (OFFSET:0x00000250, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00011:somtattjoin (OFFSET:0x00000290, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00012:somtbasename (OFFSET:0x000002c0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00013:somtcalcFileName (OFFSET:0x00000300, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00014:somtclassName (OFFSET:0x00000340, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00015:somtclassPrefix (OFFSET:0x00000380, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00016:somtcleanFiles (OFFSET:0x000003c0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00017:somtcleanFilesFatal (OFFSET:0x00000400, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00018:somtclsfilename (OFFSET:0x00000440, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00019:somtclsname (OFFSET:0x00000480, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00020:somtcreateMemBuf (OFFSET:0x000004b0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00021:somtcreateStab (OFFSET:0x000004f0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00022:somtcreateTypeCodes (OFFSET:0x00000530, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00023:somtdbcsLastChar (OFFSET:0x00000570, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00024:somtdbcsPostincr (OFFSET:0x000005b0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00025:somtdbcsPreincr (OFFSET:0x000005f0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00026:somtdbcsScan (OFFSET:0x00000630, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00027:somtdbcsStrchr (OFFSET:0x00000670, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00028:somtdbcsStrrchr (OFFSET:0x000006b0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00029:somtdbcsStrstr (OFFSET:0x000006f0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00030:somtdiskFull (OFFSET:0x00000730, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00031:somtdymain (OFFSET:0x00000770, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00032:somtemitPassthru (OFFSET:0x000007a0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00033:somtemitPredefinedTcConstants (OFFSET:0x000007e0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00034:somtemitTcConstant (OFFSET:0x00000840, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00035:somtemitTypes (OFFSET:0x00000880, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00036:somteptotype (OFFSET:0x000008c0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00037:somterror (OFFSET:0x00000900, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00038:somtext (OFFSET:0x00000930, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00039:somtfatal (OFFSET:0x00000960, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00040:somtfclose (OFFSET:0x00000990, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00041:somtfexists (OFFSET:0x000009c0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00042:somtfilePath (OFFSET:0x000009f0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00043:somtfileStem (OFFSET:0x00000a30, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00044:somtfindBaseEp (OFFSET:0x00000a70, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00045:somtfindMethodName (OFFSET:0x00000ab0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00046:somtfreeDataList (OFFSET:0x00000af0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00047:somtfreeMethodList (OFFSET:0x00000b30, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00048:somtfullComment (OFFSET:0x00000b70, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00049:somtfullPrototype (OFFSET:0x00000bb0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00050:somtfullTypedef (OFFSET:0x00000bf0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00051:somtg_buf (OFFSET:0x00000c30, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00052:somtg_f (OFFSET:0x00000c60, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00053:somtg_membuf (OFFSET:0x00000c90, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00054:somtg_sccsid (OFFSET:0x00000cd0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00055:somtg_somlink (OFFSET:0x00000d10, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00056:somtgetAtt (OFFSET:0x00000d50, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00057:somtgetDesc (OFFSET:0x00000d80, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00058:somtgetEntry (OFFSET:0x00000db0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00059:somtgetNonRepeatedParent (OFFSET:0x00000df0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00060:somtgetType (OFFSET:0x00000e40, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00061:somtgetVersion (OFFSET:0x00000e70, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00062:somtgetap (OFFSET:0x00000eb0, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00063:somtgetatt (OFFSET:0x00000ee0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00064:somtgetdatt (OFFSET:0x00000f10, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00065:somtgetgatt (OFFSET:0x00000f40, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00066:somtglbdefs (OFFSET:0x00000f70, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00067:somthandleDiskFull (OFFSET:0x00000fa0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00068:somtimplicitMeta (OFFSET:0x00000fe0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00069:somtincludeOnce (OFFSET:0x00001020, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00070:somtinitialiseMeta (OFFSET:0x00001060, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00071:somtinternal (OFFSET:0x000010a0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00072:somtisDbcs (OFFSET:0x000010e0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00073:somtisparent (OFFSET:0x00001110, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00074:somtkeyword (OFFSET:0x00001150, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00075:somtlistAttribute (OFFSET:0x00001180, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00076:somtload (OFFSET:0x000011c0, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00077:somtmajorVersion (OFFSET:0x000011f0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00078:somtmeta (OFFSET:0x00001230, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00079:somtminorVersion (OFFSET:0x00001260, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00080:somtmp (OFFSET:0x000012a0, SIZE:0x00000025):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00081:somtmsg (OFFSET:0x000012d0, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00082:somtnewMethodsCount (OFFSET:0x00001300, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00083:somtnextword (OFFSET:0x00001340, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00084:somtnthArg (OFFSET:0x00001380, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00085:somtoidlComment (OFFSET:0x000013b0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00086:somtokfopen (OFFSET:0x000013f0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00087:somtopenEmitFile (OFFSET:0x00001420, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00088:somtoutPath (OFFSET:0x00001460, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00089:somtpclsfilename (OFFSET:0x00001490, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00090:somtpclsname (OFFSET:0x000014d0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00091:somtprefixedPrototype (OFFSET:0x00001510, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00092:somtprivateMethodsCount (OFFSET:0x00001560, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00093:somtreadDescFile (OFFSET:0x000015b0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00094:somtremoveExt (OFFSET:0x000015f0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00095:somtreplaceDataName (OFFSET:0x00001630, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00096:somtrmSelf (OFFSET:0x00001670, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00097:somtrmstar (OFFSET:0x000016a0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00098:somtscmsg (OFFSET:0x000016d0, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00099:somtsearchFile (OFFSET:0x00001700, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00100:somtsetDefaultDesc (OFFSET:0x00001740, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00101:somtsetEmitSignals (OFFSET:0x00001780, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00102:somtsetTypeDefn (OFFSET:0x000017c0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00103:somtsetext (OFFSET:0x00001800, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00104:somtshortArgList (OFFSET:0x00001830, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00105:somtshowVersion (OFFSET:0x00001870, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00106:somtskipws (OFFSET:0x000018b0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00107:somtsmalloc (OFFSET:0x000018e0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00108:somtsmfree (OFFSET:0x00001910, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00109:somtsomcls (OFFSET:0x00001940, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00110:somtstab (OFFSET:0x00001970, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00111:somtstabFirst (OFFSET:0x000019a0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00112:somtstabFirstName (OFFSET:0x000019e0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00113:somtstabNext (OFFSET:0x00001a20, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00114:somtstabNextName (OFFSET:0x00001a60, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00115:somtstringFmt (OFFSET:0x00001aa0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00116:somtuninitialiseMeta (OFFSET:0x00001ae0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00117:somtuniqFmt (OFFSET:0x00001b30, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00118:somtuniqString (OFFSET:0x00001b60, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00119:somtunload (OFFSET:0x00001ba0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00120:somtunsetEmitSignals (OFFSET:0x00001bd0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00121:somtwarn (OFFSET:0x00001c20, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00122:somtwriteaccess (OFFSET:0x00001c50, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00123:somtshortDefine (OFFSET:0x00001c90, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00124:somtclassIdlCall (OFFSET:0x00001cd0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00125:somtsatos (OFFSET:0x00001d10, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00126:somtCPP (OFFSET:0x00001d40, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00127:somtemitModule (OFFSET:0x00001d70, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00128:somtmodule (OFFSET:0x00001db0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00129:somtemitModuleTypes (OFFSET:0x00001de0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00130:somttype (OFFSET:0x00001e20, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00131:somtimplicit (OFFSET:0x00001e50, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00132:somtdeclareIdlVarargs (OFFSET:0x00001e90, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00133:somtimplicitArgs (OFFSET:0x00001ee0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00134:somtarrayToPtr (OFFSET:0x00001f20, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00135:somtobseleteHeaderFile (OFFSET:0x00001f60, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00136:somtwidenType (OFFSET:0x00001fb0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00137:somtctos (OFFSET:0x00001ff0, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00138:somtgenAttStubs (OFFSET:0x00002020, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00139:somtmget (OFFSET:0x00002060, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00140:somtmopen (OFFSET:0x00002090, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00141:somtmprintf (OFFSET:0x000020c0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00142:somtmclose (OFFSET:0x000020f0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00143:somticstrcmp (OFFSET:0x00002120, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00144:somtuppercase (OFFSET:0x00002160, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00145:somtlowercase (OFFSET:0x000021a0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00146:somtdbcsuppercase (OFFSET:0x000021e0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00147:somtdbcslowercase (OFFSET:0x00002220, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00148:somtresetEmitSignals (OFFSET:0x00002260, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00149:somtstrictidl (OFFSET:0x000022b0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00150:somtaddEntryBuf (OFFSET:0x000022f0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00151:somtsizeofEntry (OFFSET:0x00002330, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00152:somtepname (OFFSET:0x00002370, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00153:somtgenSeqName (OFFSET:0x000023a0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00154:somtmrifatal (OFFSET:0x000023e0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00155:somtmriinternal (OFFSET:0x00002420, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00156:somtmrierror (OFFSET:0x00002460, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00157:somtmriwarn (OFFSET:0x000024a0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00158:somtmrimsg (OFFSET:0x000024d0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00159:somtsetInternalMessages (OFFSET:0x00002500, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00160:somtisvoid (OFFSET:0x00002550, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00161:somtreturnsStruct (OFFSET:0x00002580, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00162:somtreturnsPtr (OFFSET:0x000025c0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00163:somttraverseParents (OFFSET:0x00002600, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00164:somtsimpleName (OFFSET:0x00002640, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00165:somtqualifyNames (OFFSET:0x00002680, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00166:somttcAlignment (OFFSET:0x000026c0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00167:somttcKind (OFFSET:0x00002700, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00168:somttcSize (OFFSET:0x00002730, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00169:somtfindBaseEpNonPtr (OFFSET:0x00002760, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00170:somtprocessTraps (OFFSET:0x000027b0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00171:somtAncestorClass (OFFSET:0x000027f0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00172:somttcSeqFromListString (OFFSET:0x00002830, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00173:somtGetReintroducedMethods (OFFSET:0x00002880, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00174:somtclassList (OFFSET:0x000028d0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00175:somtokremove (OFFSET:0x00002910, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00176:somtallocMlist (OFFSET:0x00002950, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00177:somtmlistend (OFFSET:0x00002990, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00178:somtisMutRef (OFFSET:0x000029d0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00179:somtfreeMlist (OFFSET:0x00002a10, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00180:somtdupMlist (OFFSET:0x00002a50, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00181:somtsaved (OFFSET:0x00002a90, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00182:somtfreeStab (OFFSET:0x00002ac0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00183:somtfreeWorld (OFFSET:0x00002b00, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00184:somtmalloc (OFFSET:0x00002b40, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00185:somtfree (OFFSET:0x00002b70, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00186:somtcalloc (OFFSET:0x00002ba0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00187:somtrealloc (OFFSET:0x00002bd0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00188:somtinitMalloc (OFFSET:0x00002c00, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00189:somtInitialiseSomc (OFFSET:0x00002c40, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00190:somtexit (OFFSET:0x00002c80, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00191:somtipcbuf (OFFSET:0x00002cb0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00192:somtscbuf (OFFSET:0x00002ce0, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00193:somtemitReturns (OFFSET:0x00002d10, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00194:somtrealExit (OFFSET:0x00002d50, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00195:somtgetAbistyle (OFFSET:0x00002d90, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00196:somtParentNumFromName (OFFSET:0x00002dd0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00197:SOMStringTableCCClassData (OFFSET:0x00002e20, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00198:SOMStringTableCClassData (OFFSET:0x00002e70, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00199:SOMStringTableCNewClass (OFFSET:0x00002ec0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00200:SOMTAttributeEntryCCClassData (OFFSET:0x00002f10, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00201:SOMTAttributeEntryCClassData (OFFSET:0x00002f70, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00202:SOMTAttributeEntryCNewClass (OFFSET:0x00002fd0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00203:SOMTBaseClassEntryCCClassData (OFFSET:0x00003020, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00204:SOMTBaseClassEntryCClassData (OFFSET:0x00003080, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00205:SOMTBaseClassEntryCNewClass (OFFSET:0x000030e0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00206:SOMTClassEntryCCClassData (OFFSET:0x00003130, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00207:SOMTClassEntryCClassData (OFFSET:0x00003180, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00208:SOMTClassEntryCNewClass (OFFSET:0x000031d0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00209:SOMTCommonEntryCCClassData (OFFSET:0x00003220, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00210:SOMTCommonEntryCClassData (OFFSET:0x00003270, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00211:SOMTCommonEntryCNewClass (OFFSET:0x000032c0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00212:SOMTConstEntryCCClassData (OFFSET:0x00003310, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00213:SOMTConstEntryCClassData (OFFSET:0x00003360, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00214:SOMTConstEntryCNewClass (OFFSET:0x000033b0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00215:SOMTDataEntryCCClassData (OFFSET:0x00003400, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00216:SOMTDataEntryCClassData (OFFSET:0x00003450, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00217:SOMTDataEntryCNewClass (OFFSET:0x000034a0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00218:SOMTEmitCCClassData (OFFSET:0x000034f0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00219:SOMTEmitCClassData (OFFSET:0x00003530, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00220:SOMTEmitCNewClass (OFFSET:0x00003570, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00221:SOMTEntryCCClassData (OFFSET:0x000035b0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00222:SOMTEntryCClassData (OFFSET:0x00003600, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00223:SOMTEntryCNewClass (OFFSET:0x00003640, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00224:SOMTEnumEntryCCClassData (OFFSET:0x00003680, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00225:SOMTEnumEntryCClassData (OFFSET:0x000036d0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00226:SOMTEnumEntryCNewClass (OFFSET:0x00003720, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00227:SOMTEnumNameEntryCCClassData (OFFSET:0x00003770, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00228:SOMTEnumNameEntryCClassData (OFFSET:0x000037d0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00229:SOMTEnumNameEntryCNewClass (OFFSET:0x00003820, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00230:SOMTMetaClassEntryCCClassData (OFFSET:0x00003870, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00231:SOMTMetaClassEntryCClassData (OFFSET:0x000038d0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00232:SOMTMetaClassEntryCNewClass (OFFSET:0x00003930, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00233:SOMTMethodEntryCCClassData (OFFSET:0x00003980, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00234:SOMTMethodEntryCClassData (OFFSET:0x000039d0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00235:SOMTMethodEntryCNewClass (OFFSET:0x00003a20, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00236:SOMTModuleEntryCCClassData (OFFSET:0x00003a70, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00237:SOMTModuleEntryCClassData (OFFSET:0x00003ac0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00238:SOMTModuleEntryCNewClass (OFFSET:0x00003b10, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00239:SOMTParameterEntryCCClassData (OFFSET:0x00003b60, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00240:SOMTParameterEntryCClassData (OFFSET:0x00003bc0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00241:SOMTParameterEntryCNewClass (OFFSET:0x00003c20, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00242:SOMTPassthruEntryCCClassData (OFFSET:0x00003c70, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00243:SOMTPassthruEntryCClassData (OFFSET:0x00003cd0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00244:SOMTPassthruEntryCNewClass (OFFSET:0x00003d20, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00245:SOMTSequenceEntryCCClassData (OFFSET:0x00003d70, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00246:SOMTSequenceEntryCClassData (OFFSET:0x00003dd0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00247:SOMTSequenceEntryCNewClass (OFFSET:0x00003e20, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00248:SOMTStringEntryCCClassData (OFFSET:0x00003e70, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00249:SOMTStringEntryCClassData (OFFSET:0x00003ec0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00250:SOMTStringEntryCNewClass (OFFSET:0x00003f10, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00251:SOMTStructEntryCCClassData (OFFSET:0x00003f60, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00252:SOMTStructEntryCClassData (OFFSET:0x00003fb0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00253:SOMTStructEntryCNewClass (OFFSET:0x00004000, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00254:SOMTTemplateOutputCCClassData (OFFSET:0x00004050, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00255:SOMTTemplateOutputCClassData (OFFSET:0x000040b0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00256:SOMTTemplateOutputCNewClass (OFFSET:0x00004110, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00257:SOMTTypedefEntryCCClassData (OFFSET:0x00004160, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00258:SOMTTypedefEntryCClassData (OFFSET:0x000041b0, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00259:SOMTTypedefEntryCNewClass (OFFSET:0x00004200, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00260:SOMTUnionEntryCCClassData (OFFSET:0x00004250, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00261:SOMTUnionEntryCClassData (OFFSET:0x000042a0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00262:SOMTUnionEntryCNewClass (OFFSET:0x000042f0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00263:SOMTUserDefinedTypeEntryCCClassData (OFFSET:0x00004340, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00264:SOMTUserDefinedTypeEntryCClassData (OFFSET:0x000043a0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00265:SOMTUserDefinedTypeEntryCNewClass (OFFSET:0x00004400, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00266:somstDupStr (OFFSET:0x00004460, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00267:somtEntryTypeName (OFFSET:0x00004490, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00268:somtGetFileStem (OFFSET:0x000044d0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00269:somtGetObjectWrapper (OFFSET:0x00004510, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00270:somtMakeIncludeStr (OFFSET:0x00004560, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00271:somtNewSymbol (OFFSET:0x000045a0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00272:somtShowEntry (OFFSET:0x000045e0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00273:somtStrCat (OFFSET:0x00004620, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00274:somtStrDup (OFFSET:0x00004650, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00275:SOMCalloc (OFFSET:0x00004680, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00276:_SOMCalloc (OFFSET:0x000046b0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00277:SOMClassCClassData (OFFSET:0x000046e0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00278:_SOMClassCClassData (OFFSET:0x00004720, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00279:SOMClassClassData (OFFSET:0x00004760, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00280:_SOMClassClassData (OFFSET:0x000047a0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00281:SOMClassInitFuncName (OFFSET:0x000047e0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00282:_SOMClassInitFuncName (OFFSET:0x00004830, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00283:SOMClassMgrCClassData (OFFSET:0x00004880, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00284:_SOMClassMgrCClassData (OFFSET:0x000048d0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00285:SOMClassMgrClassData (OFFSET:0x00004920, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00286:_SOMClassMgrClassData (OFFSET:0x00004970, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00287:SOMClassMgrObject (OFFSET:0x000049c0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00288:_SOMClassMgrObject (OFFSET:0x00004a00, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00289:SOMDeleteModule (OFFSET:0x00004a40, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00290:_SOMDeleteModule (OFFSET:0x00004a80, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00291:SOMError (OFFSET:0x00004ac0, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00292:_SOMError (OFFSET:0x00004af0, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00293:SOMFree (OFFSET:0x00004b20, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00294:_SOMFree (OFFSET:0x00004b50, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00295:SOMLoadModule (OFFSET:0x00004b80, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00296:_SOMLoadModule (OFFSET:0x00004bc0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00297:SOMMalloc (OFFSET:0x00004c00, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00298:_SOMMalloc (OFFSET:0x00004c30, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00299:SOMObjectCClassData (OFFSET:0x00004c60, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00300:_SOMObjectCClassData (OFFSET:0x00004ca0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00301:SOMObjectClassData (OFFSET:0x00004cf0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00302:_SOMObjectClassData (OFFSET:0x00004d30, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00303:SOMOutCharRoutine (OFFSET:0x00004d70, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00304:_SOMOutCharRoutine (OFFSET:0x00004db0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00305:SOMRealloc (OFFSET:0x00004df0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00306:_SOMRealloc (OFFSET:0x00004e20, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00307:SOM_AssertLevel (OFFSET:0x00004e50, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00308:_SOM_AssertLevel (OFFSET:0x00004e90, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00309:SOM_TraceLevel (OFFSET:0x00004ed0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00310:_SOM_TraceLevel (OFFSET:0x00004f10, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00311:SOM_WarnLevel (OFFSET:0x00004f50, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00312:_SOM_WarnLevel (OFFSET:0x00004f90, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00313:SOMClassMgrNewClass (OFFSET:0x00004fd0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00314:SOMClassNewClass (OFFSET:0x00005010, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00315:SOMObjectNewClass (OFFSET:0x00005050, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00316:somAssert (OFFSET:0x00005090, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00317:somBeginPersistentIds (OFFSET:0x000050c0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00318:somCheckArgs (OFFSET:0x00005110, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00319:somCheckId (OFFSET:0x00005150, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00320:somCompareIds (OFFSET:0x00005180, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00321:somConstructClass (OFFSET:0x000051c0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00322:somEndPersistentIds (OFFSET:0x00005200, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00323:somEnvironmentNew (OFFSET:0x00005240, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00324:somIdFromString (OFFSET:0x00005280, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00325:somLPrintf (OFFSET:0x000052c0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00326:somParentResolve (OFFSET:0x000052f0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00327:somPrefixLevel (OFFSET:0x00005330, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00328:somPrintf (OFFSET:0x00005370, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00329:somRegisterId (OFFSET:0x000053a0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00330:somResolve (OFFSET:0x000053e0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00331:somSaveMetrics (OFFSET:0x00005410, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00332:somSetExpectedIds (OFFSET:0x00005450, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00333:somStringFromId (OFFSET:0x00005490, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00334:somTest (OFFSET:0x000054d0, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00335:somTestCls (OFFSET:0x00005500, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00336:somTotalRegIds (OFFSET:0x00005530, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00337:somUniqueKey (OFFSET:0x00005570, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00338:somVprintf (OFFSET:0x000055b0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00339:somWriteMetrics (OFFSET:0x000055e0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00340:somDataResolve (OFFSET:0x00005620, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00341:somClassResolve (OFFSET:0x00005660, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00342:somBuildClass (OFFSET:0x000056a0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00343:somParentNumResolve (OFFSET:0x000056e0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00344:somCreateDynamicClass (OFFSET:0x00005720, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00345:somExceptionId (OFFSET:0x00005770, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00346:somExceptionValue (OFFSET:0x000057b0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00347:somExceptionFree (OFFSET:0x000057f0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00348:somSetException (OFFSET:0x00005830, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00349:SOM_IdTable (OFFSET:0x00005870, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00350:_SOM_IdTable (OFFSET:0x000058a0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00351:SOM_IdTableSize (OFFSET:0x000058e0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00352:_SOM_IdTableSize (OFFSET:0x00005920, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00353:somGetGlobalEnvironment (OFFSET:0x00005960, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00354:somIsObj (OFFSET:0x000059b0, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00355:somResolveByName (OFFSET:0x000059e0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00356:somStartCriticalSection (OFFSET:0x00005a20, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00357:somEndCriticalSection (OFFSET:0x00005a70, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00358:va_SOMObject_somDispatchA (OFFSET:0x00005ac0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00359:va_SOMObject_somDispatchD (OFFSET:0x00005b10, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00360:va_SOMObject_somDispatchL (OFFSET:0x00005b60, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00361:va_SOMObject_somDispatchV (OFFSET:0x00005bb0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00362:va_SOMObject_somDispatch (OFFSET:0x00005c00, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00363:somApply (OFFSET:0x00005c50, SIZE:0x00000029):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00364:SOM_MajorVersion (OFFSET:0x00005c80, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00365:_SOM_MajorVersion (OFFSET:0x00005cc0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00366:SOM_MinorVersion (OFFSET:0x00005d00, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00367:_SOM_MinorVersion (OFFSET:0x00005d40, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00368:somDataResolveChk (OFFSET:0x00005d80, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00369:somAncestorResolve (OFFSET:0x00005dc0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00370:somfixMsgTemplate (OFFSET:0x00005e00, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00371:somGetClassFromMToken (OFFSET:0x00005e40, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00372:somEnvironmentEnd (OFFSET:0x00005e90, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00373:somAbnormalEnd (OFFSET:0x00005ed0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00374:somSetOutChar (OFFSET:0x00005f10, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00375:somRegisterClassLibrary (OFFSET:0x00005f50, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00376:SOMParentDerivedMetaclassClassData (OFFSET:0x00005fa0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00377:somMainProgram (OFFSET:0x00006000, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00378:somUnregisterClassLibrary (OFFSET:0x00006040, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00379:SOMCreateMutexSem (OFFSET:0x00006090, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00380:_SOMCreateMutexSem (OFFSET:0x000060d0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00381:SOMRequestMutexSem (OFFSET:0x00006110, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00382:_SOMRequestMutexSem (OFFSET:0x00006150, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00383:SOMReleaseMutexSem (OFFSET:0x00006190, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00384:_SOMReleaseMutexSem (OFFSET:0x000061d0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00385:SOMDestroyMutexSem (OFFSET:0x00006210, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00386:_SOMDestroyMutexSem (OFFSET:0x00006250, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00387:SOMGetThreadId (OFFSET:0x00006290, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00388:_SOMGetThreadId (OFFSET:0x000062d0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00389:SOM_MaxThreads (OFFSET:0x00006310, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00390:_SOM_MaxThreads (OFFSET:0x00006350, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00391:somva_SOMObject_somDispatchA (OFFSET:0x00006390, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00392:somva_SOMObject_somDispatchD (OFFSET:0x000063f0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00393:somva_SOMObject_somDispatchL (OFFSET:0x00006450, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00394:somva_SOMObject_somDispatchV (OFFSET:0x000064b0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00395:somva_SOMObject_somDispatch (OFFSET:0x00006510, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00396:somva_SOMObject_somClassDispatch (OFFSET:0x00006560, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00397:somIdFromStringNoFree (OFFSET:0x000065c0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00398:somFreeThreadData (OFFSET:0x00006610, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00399:somIdMarshal (OFFSET:0x00006650, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00400:somMakeUserRdStub (OFFSET:0x00006690, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00401:SocketsCClassData (OFFSET:0x000066d0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00402:SocketsClassData (OFFSET:0x00006710, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00403:SocketsNewClass (OFFSET:0x00006750, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00404:SOMEClientEventCClassData (OFFSET:0x00006790, SIZE:0x0000004c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00405:SOMEClientEventClassData (OFFSET:0x000067e0, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00406:SOMEClientEventNewClass (OFFSET:0x00006830, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00407:SOMEEMRegisterDataCClassData (OFFSET:0x00006880, SIZE:0x00000052):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00408:SOMEEMRegisterDataClassData (OFFSET:0x000068e0, SIZE:0x00000050):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00409:SOMEEMRegisterDataNewClass (OFFSET:0x00006930, SIZE:0x0000004e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00410:SOMEEManCClassData (OFFSET:0x00006980, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00411:SOMEEManClassData (OFFSET:0x000069c0, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00412:SOMEEManNewClass (OFFSET:0x00006a00, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00413:SOMEEventCClassData (OFFSET:0x00006a40, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00414:SOMEEventClassData (OFFSET:0x00006a80, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00415:SOMEEventNewClass (OFFSET:0x00006ac0, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00416:SOMESignalEventCClassData (OFFSET:0x00006b00, SIZE:0x0000004c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00417:SOMESignalEventClassData (OFFSET:0x00006b50, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00418:SOMESignalEventNewClass (OFFSET:0x00006ba0, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00419:SOMESinkEventCClassData (OFFSET:0x00006bf0, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00420:SOMESinkEventClassData (OFFSET:0x00006c40, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00421:SOMESinkEventNewClass (OFFSET:0x00006c90, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00422:SOMETimerEventCClassData (OFFSET:0x00006ce0, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00423:SOMETimerEventClassData (OFFSET:0x00006d30, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00424:SOMETimerEventNewClass (OFFSET:0x00006d80, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00425:SOMEWorkProcEventCClassData (OFFSET:0x00006dd0, SIZE:0x00000050):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00426:SOMEWorkProcEventClassData (OFFSET:0x00006e20, SIZE:0x0000004e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00427:SOMEWorkProcEventNewClass (OFFSET:0x00006e70, SIZE:0x0000004c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00428:somva_SOMEEMRegisterData_someSetRegDataEventMask (OFFSET:0x00006ec0, SIZE:0x0000007a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00429:ArrayCClassData (OFFSET:0x00006f40, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00430:ArrayClassData (OFFSET:0x00006f80, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00431:ArrayNewClass (OFFSET:0x00006fc0, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00432:CharDictionaryCClassData (OFFSET:0x00007000, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00433:CharDictionaryClassData (OFFSET:0x00007050, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00434:CharDictionaryNewClass (OFFSET:0x000070a0, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00435:DictionaryCClassData (OFFSET:0x000070f0, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00436:DictionaryClassData (OFFSET:0x00007140, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00437:DictionaryNewClass (OFFSET:0x00007180, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00438:ICharDictionaryCClassData (OFFSET:0x000071c0, SIZE:0x0000004c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00439:ICharDictionaryClassData (OFFSET:0x00007210, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00440:ICharDictionaryNewClass (OFFSET:0x00007260, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00441:IIntDictionaryCClassData (OFFSET:0x000072b0, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00442:IIntDictionaryClassData (OFFSET:0x00007300, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00443:IIntDictionaryNewClass (OFFSET:0x00007350, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00444:IdentityDictCClassData (OFFSET:0x000073a0, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00445:IdentityDictClassData (OFFSET:0x000073f0, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00446:IdentityDictNewClass (OFFSET:0x00007440, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00447:IntDictionaryCClassData (OFFSET:0x00007490, SIZE:0x00000048):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00448:IntDictionaryClassData (OFFSET:0x000074e0, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00449:IntDictionaryNewClass (OFFSET:0x00007530, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00450:IteratorCClassData (OFFSET:0x00007580, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00451:IteratorClassData (OFFSET:0x000075c0, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00452:IteratorNewClass (OFFSET:0x00007600, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00453:ListCClassData (OFFSET:0x00007640, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00454:ListClassData (OFFSET:0x00007680, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00455:ListNewClass (OFFSET:0x000076c0, SIZE:0x00000032):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00456:SequenceCClassData (OFFSET:0x00007700, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00457:SequenceClassData (OFFSET:0x00007740, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00458:SequenceNewClass (OFFSET:0x00007780, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00459:SetCClassData (OFFSET:0x000077c0, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00460:SetClassData (OFFSET:0x00007800, SIZE:0x00000032):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00461:SetNewClass (OFFSET:0x00007840, SIZE:0x00000030):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00462:SortedListCClassData (OFFSET:0x00007870, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00463:SortedListClassData (OFFSET:0x000078c0, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00464:SortedListNewClass (OFFSET:0x00007900, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00465:contLinkCClassData (OFFSET:0x00007940, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00466:contLinkClassData (OFFSET:0x00007980, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00467:contLinkNewClass (OFFSET:0x000079c0, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00468:contObjectCClassData (OFFSET:0x00007a00, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00469:contObjectClassData (OFFSET:0x00007a50, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00470:contObjectNewClass (OFFSET:0x00007a90, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00471:dictKeyCClassData (OFFSET:0x00007ad0, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00472:dictKeyCharCClassData (OFFSET:0x00007b10, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00473:dictKeyCharClassData (OFFSET:0x00007b60, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00474:dictKeyCharNewClass (OFFSET:0x00007bb0, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00475:dictKeyClassData (OFFSET:0x00007bf0, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00476:dictKeyIntCClassData (OFFSET:0x00007c30, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00477:dictKeyIntClassData (OFFSET:0x00007c80, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00478:dictKeyIntNewClass (OFFSET:0x00007cc0, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00479:dictKeyNewClass (OFFSET:0x00007d00, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00480:dictObjectCClassData (OFFSET:0x00007d40, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00481:dictObjectClassData (OFFSET:0x00007d90, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00482:dictObjectNewClass (OFFSET:0x00007dd0, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00483:otpContainerCClassData (OFFSET:0x00007e10, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00484:otpContainerClassData (OFFSET:0x00007e60, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00485:otpContainerNewClass (OFFSET:0x00007eb0, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00486:CosSecurityAuthn_CapabilitiesCClassData (OFFSET:0x00007f00, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00487:CosSecurityAuthn_CapabilitiesClassData (OFFSET:0x00007f70, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00488:CosSecurityAuthn_CapabilitiesNewClass (OFFSET:0x00007fe0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00489:CosSecurityAuthn_PrivilegesCClassData (OFFSET:0x00008050, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00490:CosSecurityAuthn_PrivilegesClassData (OFFSET:0x000080c0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00491:CosSecurityAuthn_PrivilegesNewClass (OFFSET:0x00008130, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00492:CosSecurityAuthn_PrincipalCClassData (OFFSET:0x000081a0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00493:CosSecurityAuthn_PrincipalClassData (OFFSET:0x00008210, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00494:CosSecurityAuthn_PrincipalNewClass (OFFSET:0x00008280, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00495:CosSecurityAuthn_QOPCClassData (OFFSET:0x000082e0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00496:CosSecurityAuthn_QOPClassData (OFFSET:0x00008340, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00497:CosSecurityAuthn_QOPNewClass (OFFSET:0x000083a0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00498:CosSecurityAuthn_VaultCClassData (OFFSET:0x00008400, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00499:CosSecurityAuthn_VaultClassData (OFFSET:0x00008460, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00500:CosSecurityAuthn_VaultNewClass (OFFSET:0x000084c0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00501:SOMSecurityAuthn_SOM_PersonaCClassData (OFFSET:0x00008520, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00502:SOMSecurityAuthn_SOM_PersonaClassData (OFFSET:0x00008590, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00503:SOMSecurityAuthn_SOM_PersonaNewClass (OFFSET:0x00008600, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00504:SOMSecurityAuthn_SOM_SharedContextCClassData (OFFSET:0x00008670, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00505:SOMSecurityAuthn_SOM_SharedContextClassData (OFFSET:0x000086f0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00506:SOMSecurityAuthn_SOM_SharedContextNewClass (OFFSET:0x00008770, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00507:SOMSecurityAuthn_SOM_VaultCClassData (OFFSET:0x000087e0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00508:SOMSecurityAuthn_SOM_VaultClassData (OFFSET:0x00008850, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00509:SOMSecurityAuthn_SOM_VaultNewClass (OFFSET:0x000088c0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00510:verify_authn (OFFSET:0x00008920, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00511:get_active_persona (OFFSET:0x00008960, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00512:random_str (OFFSET:0x000089a0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00513:somdSECInit (OFFSET:0x000089d0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00514:SOMDSecVault (OFFSET:0x00008a10, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00515:CosRegistry_RegistryCClassData (OFFSET:0x00008a50, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00516:CosRegistry_RegistryClassData (OFFSET:0x00008ab0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00517:CosRegistry_RegistryNewClass (OFFSET:0x00008b10, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00518:RegistryServerCClassData (OFFSET:0x00008b70, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00519:RegistryServerClassData (OFFSET:0x00008bc0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00520:RegistryServerNewClass (OFFSET:0x00008c10, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00521:RegistryClientProxyCClassData (OFFSET:0x00008c60, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00522:RegistryClientProxyClassData (OFFSET:0x00008cc0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00523:RegistryClientProxyNewClass (OFFSET:0x00008d20, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00524:SOMSecurityRegistry_SOM_RegistryClassData (OFFSET:0x00008d80, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00525:SOMSecurityRegistry_SOM_RegistryCClassData (OFFSET:0x00008df0, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00526:SOMSecurityRegistry_SOM_RegistryNewClass (OFFSET:0x00008e60, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00527:CosSecurityAuthz_SAOClassData (OFFSET:0x00008ed0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00528:CosSecurityAuthz_SAOCClassData (OFFSET:0x00008f30, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00529:CosSecurityAuthz_SAONewClass (OFFSET:0x00008f90, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00530:CosSecurityAuthz_SAPClassData (OFFSET:0x00008ff0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00531:CosSecurityAuthz_SAPCClassData (OFFSET:0x00009050, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00532:CosSecurityAuthz_SAPNewClass (OFFSET:0x000090b0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00533:SOMSecuritySecure_SOM_SecureClassData (OFFSET:0x00009110, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00534:SOMSecuritySecure_SOM_SecureCClassData (OFFSET:0x00009180, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00535:SOMSecuritySecure_SOM_SecureNewClass (OFFSET:0x000091f0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00536:SOMSecurityAuthz_SOM_M_SecureClassData (OFFSET:0x00009260, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00537:SOMSecurityAuthz_SOM_M_SecureCClassData (OFFSET:0x000092d0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00538:SOMSecurityAuthz_SOM_M_SecureNewClass (OFFSET:0x00009340, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00539:SOMSecurityAuthz_SOM_SAOClassData (OFFSET:0x000093b0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00540:SOMSecurityAuthz_SOM_SAOCClassData (OFFSET:0x00009410, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00541:SOMSecurityAuthz_SOM_SAONewClass (OFFSET:0x00009470, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00542:SOM_RegistrySecureClassData (OFFSET:0x000094d0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00543:SOM_RegistrySecureCClassData (OFFSET:0x00009530, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00544:SOM_RegistrySecureNewClass (OFFSET:0x00009590, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00545:SOM_Registry_M_SecureClassData (OFFSET:0x000095e0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00546:SOM_Registry_M_SecureCClassData (OFFSET:0x00009640, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00547:SOM_Registry_M_SecureNewClass (OFFSET:0x000096a0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00548:SOM_KDCClassData (OFFSET:0x00009700, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00549:SOM_KDCCClassData (OFFSET:0x00009740, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00550:SOM_KDCNewClass (OFFSET:0x00009780, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00551:getQualifiedSOMPath (OFFSET:0x000097c0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00552:free_capability (OFFSET:0x00009810, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00553:free_string_list (OFFSET:0x00009850, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00554:free_mrar_list (OFFSET:0x00009890, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00555:free_mrar (OFFSET:0x000098d0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00556:free_rights_list (OFFSET:0x00009900, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00557:sys_free_string_array (OFFSET:0x00009940, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00558:mask_rights (OFFSET:0x00009990, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00559:consolidate_rights (OFFSET:0x000099d0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00560:get_any_data (OFFSET:0x00009a10, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00561:get_registry_ref (OFFSET:0x00009a50, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00562:g_secreg_dbfile (OFFSET:0x00009a90, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00563:dsom_authenticate (OFFSET:0x00009ad0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00564:verify_session (OFFSET:0x00009b10, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00565:free_session_info (OFFSET:0x00009b50, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00566:init_server (OFFSET:0x00009b90, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00567:get_default_principal (OFFSET:0x00009bd0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00568:set_default_principal (OFFSET:0x00009c20, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00569:g_sec_process_type (OFFSET:0x00009c70, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00570:get_msg_from_cat (OFFSET:0x00009cb0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00571:publish_obj_ref (OFFSET:0x00009cf0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00572:get_secsvr_ref (OFFSET:0x00009d30, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00573:sominit_security_before (OFFSET:0x00009d70, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00574:sominit_security_after (OFFSET:0x00009dc0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00575:somsec_dsom_server (OFFSET:0x00009e10, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00576:somsec_get_authn_stream (OFFSET:0x00009e50, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00577:BOACClassData (OFFSET:0x00009ea0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00578:BOAClassData (OFFSET:0x00009ee0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00579:BOANewClass (OFFSET:0x00009f20, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00580:PrincipalCClassData (OFFSET:0x00009f50, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00581:PrincipalClassData (OFFSET:0x00009f90, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00582:PrincipalNewClass (OFFSET:0x00009fd0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00583:ContextCClassData (OFFSET:0x0000a010, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00584:ContextClassData (OFFSET:0x0000a050, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00585:ContextNewClass (OFFSET:0x0000a090, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00586:SOMDImplDb_ImplDatabaseClassData (OFFSET:0x0000a0d0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00587:SOMDImplDb_ImplDatabaseNewClass (OFFSET:0x0000a130, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00588:SOMDImplDb_ImplDatabaseCClassData (OFFSET:0x0000a190, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00589:ImplDatabase21ClassData (OFFSET:0x0000a1f0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00590:ImplDatabase21NewClass (OFFSET:0x0000a240, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00591:ImplDatabase21CClassData (OFFSET:0x0000a290, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00592:ImplRepositoryCClassData (OFFSET:0x0000a2e0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00593:ImplRepositoryClassData (OFFSET:0x0000a330, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00594:ImplRepositoryNewClass (OFFSET:0x0000a380, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00595:ImplementationDefCClassData (OFFSET:0x0000a3d0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00596:ImplementationDefClassData (OFFSET:0x0000a420, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00597:ImplementationDefNewClass (OFFSET:0x0000a470, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00598:SOMDObjRegistry_ObjRegistryNewClass (OFFSET:0x0000a4c0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00599:SOMDObjRegistry_ObjRegistryCClassData (OFFSET:0x0000a520, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00600:SOMDObjRegistry_ObjRegistryClassData (OFFSET:0x0000a590, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00601:SOMDObjectRegistryDb_ObjectRegistryDbNewClass (OFFSET:0x0000a600, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00602:SOMDObjectRegistryDb_ObjectRegistryDbCClassData (OFFSET:0x0000a680, SIZE:0x00000077):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00603:SOMDObjectRegistryDb_ObjectRegistryDbClassData (OFFSET:0x0000a700, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00604:SOMDCSReg_CallStreamRegistrarNewClass (OFFSET:0x0000a780, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00605:SOMDCSReg_CallStreamRegistrarClassData (OFFSET:0x0000a7f0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00606:SOMDCSReg_CallStreamRegistrarCClassData (OFFSET:0x0000a860, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00607:SOMDCSRegRI_CallStreamRegistrarRINewClass (OFFSET:0x0000a8d0, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00608:SOMDCSRegRI_CallStreamRegistrarRIClassData (OFFSET:0x0000a940, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00609:SOMDCSRegRI_CallStreamRegistrarRICClassData (OFFSET:0x0000a9b0, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00610:NVListCClassData (OFFSET:0x0000aa20, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00611:NVListClassData (OFFSET:0x0000aa60, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00612:NVListNewClass (OFFSET:0x0000aaa0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00613:ORBCClassData (OFFSET:0x0000aae0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00614:ORBClassData (OFFSET:0x0000ab20, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00615:ORBNewClass (OFFSET:0x0000ab60, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00616:ORBfree (OFFSET:0x0000ab90, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00617:ObjectMgrCClassData (OFFSET:0x0000abc0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00618:ObjectMgrClassData (OFFSET:0x0000ac00, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00619:ObjectMgrNewClass (OFFSET:0x0000ac40, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00620:RequestCClassData (OFFSET:0x0000ac80, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00621:RequestClassData (OFFSET:0x0000acc0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00622:RequestNewClass (OFFSET:0x0000ad00, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00623:SOMDClientProxyCClassData (OFFSET:0x0000ad40, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00624:SOMDClientProxyClassData (OFFSET:0x0000ad90, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00625:SOMDClientProxyNewClass (OFFSET:0x0000ade0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00626:SOMDObjectCClassData (OFFSET:0x0000ae30, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00627:SOMDObjectClassData (OFFSET:0x0000ae80, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00628:SOMDObjectMgrCClassData (OFFSET:0x0000aec0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00629:SOMDObjectMgrClassData (OFFSET:0x0000af10, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00630:SOMDObjectMgrNewClass (OFFSET:0x0000af60, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00631:SOMDObjectNewClass (OFFSET:0x0000afb0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00632:SOMDServerCClassData (OFFSET:0x0000aff0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00633:SOMDServerClassData (OFFSET:0x0000b040, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00634:SOMDServerNewClass (OFFSET:0x0000b080, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00635:SOMD_DebugFlag (OFFSET:0x0000b0c0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00636:SOMD_DefaultContext (OFFSET:0x0000b100, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00637:SOMD_ImplDefObject (OFFSET:0x0000b140, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00638:SOMD_ImplRepObject (OFFSET:0x0000b180, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00639:SOMD_Init (OFFSET:0x0000b1c0, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00640:SOMD_MMObject (OFFSET:0x0000b1f0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00641:SOMD_ORBObject (OFFSET:0x0000b230, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00642:SOMD_ObjectMgr (OFFSET:0x0000b270, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00643:SOMD_RegisterCallback (OFFSET:0x0000b2b0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00644:SOMD_SOMOAObject (OFFSET:0x0000b300, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00645:SOMD_ServerObject (OFFSET:0x0000b340, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00646:SOMD_SocketObject (OFFSET:0x0000b380, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00647:SOMD_FENCObject (OFFSET:0x0000b3c0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00648:SOMD_TraceLevel (OFFSET:0x0000b400, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00649:SOMD_Uninit (OFFSET:0x0000b440, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00650:SOMOACClassData (OFFSET:0x0000b470, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00651:SOMOAClassData (OFFSET:0x0000b4b0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00652:SOMOANewClass (OFFSET:0x0000b4f0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00653:TSIdentificationCClassData (OFFSET:0x0000b530, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00654:TSIdentificationClassData (OFFSET:0x0000b580, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00655:TSIdentificationNewClass (OFFSET:0x0000b5d0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00656:SOMDServerMgrNewClass (OFFSET:0x0000b620, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00657:SOMDServerMgrCClassData (OFFSET:0x0000b670, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00658:SOMDServerMgrClassData (OFFSET:0x0000b6c0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00659:SOMDServMgrReceiverNewClass (OFFSET:0x0000b710, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00660:SOMDServMgrReceiverCClassData (OFFSET:0x0000b760, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00661:SOMDServMgrReceiverClassData (OFFSET:0x0000b7c0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00662:get_next_response (OFFSET:0x0000b820, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00663:send_multiple_requests (OFFSET:0x0000b860, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00664:somdCommDebugFlag (OFFSET:0x0000b8b0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00665:somdDefineExitHandler (OFFSET:0x0000b8f0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00666:somdError (OFFSET:0x0000b940, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00667:somdGetAnchorBlock (OFFSET:0x0000b970, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00668:somdLSDExitHandler (OFFSET:0x0000b9b0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00669:somdGetLSDPort (OFFSET:0x0000b9f0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00670:somdMakeSocketObj (OFFSET:0x0000ba30, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00671:somdMemoryMgrClassData (OFFSET:0x0000ba70, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00672:somdMsg (OFFSET:0x0000bac0, SIZE:0x00000027):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00673:somdPathGet (OFFSET:0x0000baf0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00674:somdPgmExitHandler (OFFSET:0x0000bb20, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00675:somdPgmSetup (OFFSET:0x0000bb60, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00676:somdPrintf (OFFSET:0x0000bba0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00677:somd_htons (OFFSET:0x0000bbd0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00678:somd_htonl (OFFSET:0x0000bc00, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00679:SOMD_NoORBfree (OFFSET:0x0000bc30, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00680:SOMD_YesORBfree (OFFSET:0x0000bc70, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00681:SOMD_QueryORBfree (OFFSET:0x0000bcb0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00682:somdExceptionFree (OFFSET:0x0000bcf0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00683:SOMD_FlushInterfaceCache (OFFSET:0x0000bd30, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00684:somdGetenv (OFFSET:0x0000bd80, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00685:somdCheckSOMSOCKETS (OFFSET:0x0000bdb0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00686:somdExtractUUID (OFFSET:0x0000bdf0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00687:somdGetDefaultRefData (OFFSET:0x0000be30, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00688:FENC_FactoryENCCClassData (OFFSET:0x0000be80, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00689:FENC_FactoryENCClassData (OFFSET:0x0000bed0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00690:FENC_FactoryENCNewClass (OFFSET:0x0000bf20, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00691:FENC_FactoryENC__ProxyCClassData (OFFSET:0x0000bf70, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00692:FENC_FactoryENC__ProxyClassData (OFFSET:0x0000bfd0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00693:FENC_FactoryENC__ProxyNewClass (OFFSET:0x0000c030, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00694:SOMDObjectNilCClassData (OFFSET:0x0000c090, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00695:SOMDObjectNilClassData (OFFSET:0x0000c0e0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00696:SOMDObjectNilNewClass (OFFSET:0x0000c130, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00697:somdCreate (OFFSET:0x0000c180, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00698:somdCreateDynProxyClass (OFFSET:0x0000c1b0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00699:somdBinaryObjectRefToString (OFFSET:0x0000c200, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00700:somdTagProfilesToCDR (OFFSET:0x0000c250, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00701:somdCDRToTagProfiles (OFFSET:0x0000c2a0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00702:somdCSObjectFromStanza (OFFSET:0x0000c2f0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00703:somdCSFactoryFromStanza (OFFSET:0x0000c340, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00704:somdStartProcess (OFFSET:0x0000c390, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00705:somdFindFile (OFFSET:0x0000c3d0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00706:somdFindDLL (OFFSET:0x0000c410, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00707:somdGetNode (OFFSET:0x0000c440, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00708:somdTypeIdFromRepId (OFFSET:0x0000c470, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00709:somdRepIdFromTypeId (OFFSET:0x0000c4b0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00710:somdRefreshServerEnv (OFFSET:0x0000c4f0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00711:somdDaemonReady (OFFSET:0x0000c540, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00712:SOMDCallStrm_RequestRcvrCClassData (OFFSET:0x0000c580, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00713:SOMDCallStrm_RequestRcvrClassData (OFFSET:0x0000c5f0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00714:SOMDCallStrm_RequestRcvrNewClass (OFFSET:0x0000c650, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00715:SOMDCallStrm_CallStreamCClassData (OFFSET:0x0000c6b0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00716:SOMDCallStrm_CallStreamClassData (OFFSET:0x0000c710, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00717:SOMDCallStrm_CallStreamNewClass (OFFSET:0x0000c770, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00718:SOMDCallStrm_CallStreamFactoryCClassData (OFFSET:0x0000c7d0, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00719:SOMDCallStrm_CallStreamFactoryClassData (OFFSET:0x0000c840, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00720:SOMDCallStrm_CallStreamFactoryNewClass (OFFSET:0x0000c8b0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00721:SOMDCallStrm_CallStreamMgrCClassData (OFFSET:0x0000c920, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00722:SOMDCallStrm_CallStreamMgrClassData (OFFSET:0x0000c990, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00723:SOMDCallStrm_CallStreamMgrNewClass (OFFSET:0x0000ca00, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00724:SOMDCallStrmRI_LockableCClassData (OFFSET:0x0000ca70, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00725:SOMDCallStrmRI_LockableClassData (OFFSET:0x0000cad0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00726:SOMDCallStrmRI_LockableNewClass (OFFSET:0x0000cb30, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00727:SOMDCallStrmRI_CallStreamRICClassData (OFFSET:0x0000cb90, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00728:SOMDCallStrmRI_CallStreamRIClassData (OFFSET:0x0000cc00, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00729:SOMDCallStrmRI_CallStreamRINewClass (OFFSET:0x0000cc70, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00730:SOMDCallStrmRI_CallStreamFactoryRICClassData (OFFSET:0x0000cce0, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00731:SOMDCallStrmRI_CallStreamFactoryRIClassData (OFFSET:0x0000cd60, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00732:SOMDCallStrmRI_CallStreamFactoryRINewClass (OFFSET:0x0000cde0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00733:SOMDCallStrmIIOP_CallStreamIIOPCClassData (OFFSET:0x0000ce60, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00734:SOMDCallStrmIIOP_CallStreamIIOPClassData (OFFSET:0x0000ced0, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00735:SOMDCallStrmIIOP_CallStreamIIOPNewClass (OFFSET:0x0000cf40, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00736:SOMDCallStrmIIOP_CallStreamFactoryIIOPCClassData (OFFSET:0x0000cfb0, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00737:SOMDCallStrmIIOP_CallStreamFactoryIIOPClassData (OFFSET:0x0000d030, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00738:SOMDCallStrmIIOP_CallStreamFactoryIIOPNewClass (OFFSET:0x0000d0b0, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00739:SOMDMarshal_RemoteCallCClassData (OFFSET:0x0000d130, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00740:SOMDMarshal_RemoteCallClassData (OFFSET:0x0000d190, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00741:SOMDMarshal_RemoteCallNewClass (OFFSET:0x0000d1f0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00742:SOMDMarshalRI_RemoteCallRICClassData (OFFSET:0x0000d250, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00743:SOMDMarshalRI_RemoteCallRIClassData (OFFSET:0x0000d2c0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00744:SOMDMarshalRI_RemoteCallRINewClass (OFFSET:0x0000d330, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00745:SOMDDataMarshalerCClassData (OFFSET:0x0000d3a0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00746:SOMDDataMarshalerClassData (OFFSET:0x0000d400, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00747:SOMDDataMarshalerNewClass (OFFSET:0x0000d460, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00748:SOMDForeignMarshalerCClassData (OFFSET:0x0000d4b0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00749:SOMDForeignMarshalerClassData (OFFSET:0x0000d510, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00750:SOMDForeignMarshalerNewClass (OFFSET:0x0000d570, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00751:SOMDAsynchRequest_MarshalerNewClass (OFFSET:0x0000d5d0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00752:SOMDAsynchRequest_MarshalerCClassData (OFFSET:0x0000d640, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00753:SOMDAsynchRequest_MarshalerClassData (OFFSET:0x0000d6b0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00754:SOMDAsynchRequest_DemarshalerNewClass (OFFSET:0x0000d720, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00755:SOMDAsynchRequest_DemarshalerCClassData (OFFSET:0x0000d790, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00756:SOMDAsynchRequest_DemarshalerClassData (OFFSET:0x0000d800, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00757:SOMDMarshalRI_SOMDDefaultForeignOctetMarshalerCClassData (OFFSET:0x0000d870, SIZE:0x0000008d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00758:SOMDMarshalRI_SOMDDefaultForeignOctetMarshalerClassData (OFFSET:0x0000d900, SIZE:0x0000008b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00759:SOMDMarshalRI_SOMDDefaultForeignOctetMarshalerNewClass (OFFSET:0x0000d990, SIZE:0x00000089):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00760:PseudooptimizedStreamIOCClassData (OFFSET:0x0000da20, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00761:PseudooptimizedStreamIOClassData (OFFSET:0x0000da80, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00762:PseudooptimizedStreamIONewClass (OFFSET:0x0000dae0, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00763:SOMDTrans_MessageRcvrCClassData (OFFSET:0x0000db40, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00764:SOMDTrans_MessageRcvrClassData (OFFSET:0x0000dba0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00765:SOMDTrans_MessageRcvrNewClass (OFFSET:0x0000dc00, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00766:SOMDTrans_TransportFactoryCClassData (OFFSET:0x0000dc60, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00767:SOMDTrans_TransportFactoryClassData (OFFSET:0x0000dcd0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00768:SOMDTrans_TransportFactoryNewClass (OFFSET:0x0000dd40, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00769:SOMDTrans_TransportHandlerCClassData (OFFSET:0x0000ddb0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00770:SOMDTrans_TransportHandlerClassData (OFFSET:0x0000de20, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00771:SOMDTrans_TransportHandlerNewClass (OFFSET:0x0000de90, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00772:SOMDTrans_OptimizedStreamIOCClassData (OFFSET:0x0000df00, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00773:SOMDTrans_OptimizedStreamIOClassData (OFFSET:0x0000df70, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00774:SOMDTrans_OptimizedStreamIONewClass (OFFSET:0x0000dfe0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00775:SOMDTrans_TransportCClassData (OFFSET:0x0000e050, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00776:SOMDTrans_TransportClassData (OFFSET:0x0000e0b0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00777:SOMDTrans_TransportNewClass (OFFSET:0x0000e110, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00778:SOMDTrans_EncapsulationCClassData (OFFSET:0x0000e170, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00779:SOMDTrans_EncapsulationClassData (OFFSET:0x0000e1d0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00780:SOMDTrans_EncapsulationNewClass (OFFSET:0x0000e230, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00781:SOMDtipc_IPCTransportFactoryCClassData (OFFSET:0x0000e290, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00782:SOMDtipc_IPCTransportFactoryClassData (OFFSET:0x0000e300, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00783:SOMDtipc_IPCTransportFactoryNewClass (OFFSET:0x0000e370, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00784:SOMDtipc_IPCTransportHandlerCClassData (OFFSET:0x0000e3e0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00785:SOMDtipc_IPCTransportHandlerClassData (OFFSET:0x0000e450, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00786:SOMDtipc_IPCTransportHandlerNewClass (OFFSET:0x0000e4c0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00787:SOMDtipc_IPCTransportCClassData (OFFSET:0x0000e530, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00788:SOMDtipc_IPCTransportClassData (OFFSET:0x0000e590, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00789:SOMDtipc_IPCTransportNewClass (OFFSET:0x0000e5f0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00790:SOMDtip_IPTransportFactoryCClassData (OFFSET:0x0000e650, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00791:SOMDtip_IPTransportFactoryClassData (OFFSET:0x0000e6c0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00792:SOMDtip_IPTransportFactoryNewClass (OFFSET:0x0000e730, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00793:SOMDtip_TCPIPTransportFactoryCClassData (OFFSET:0x0000e7a0, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00794:SOMDtip_TCPIPTransportFactoryClassData (OFFSET:0x0000e810, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00795:SOMDtip_TCPIPTransportFactoryNewClass (OFFSET:0x0000e880, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00796:SOMDtip_NBIPTransportFactoryCClassData (OFFSET:0x0000e8f0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00797:SOMDtip_NBIPTransportFactoryClassData (OFFSET:0x0000e960, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00798:SOMDtip_NBIPTransportFactoryNewClass (OFFSET:0x0000e9d0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00799:SOMDtip_IPXIPTransportFactoryCClassData (OFFSET:0x0000ea40, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00800:SOMDtip_IPXIPTransportFactoryClassData (OFFSET:0x0000eab0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00801:SOMDtip_IPXIPTransportFactoryNewClass (OFFSET:0x0000eb20, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00802:SOMDtip_IPTransportHandlerCClassData (OFFSET:0x0000eb90, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00803:SOMDtip_IPTransportHandlerClassData (OFFSET:0x0000ec00, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00804:SOMDtip_IPTransportHandlerNewClass (OFFSET:0x0000ec70, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00805:SOMDtip_IPListenTransportHandlerCClassData (OFFSET:0x0000ece0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00806:SOMDtip_IPListenTransportHandlerClassData (OFFSET:0x0000ed60, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00807:SOMDtip_IPListenTransportHandlerNewClass (OFFSET:0x0000edd0, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00808:SOMDtip_IPTransportCClassData (OFFSET:0x0000ee40, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00809:SOMDtip_IPTransportClassData (OFFSET:0x0000eea0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00810:SOMDtip_IPTransportNewClass (OFFSET:0x0000ef00, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00811:SOMDtip_TCPIPTransportCClassData (OFFSET:0x0000ef60, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00812:SOMDtip_TCPIPTransportClassData (OFFSET:0x0000efc0, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00813:SOMDtip_TCPIPTransportNewClass (OFFSET:0x0000f020, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00814:SOMDtip_NBIPTransportCClassData (OFFSET:0x0000f080, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00815:SOMDtip_NBIPTransportClassData (OFFSET:0x0000f0e0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00816:SOMDtip_NBIPTransportNewClass (OFFSET:0x0000f140, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00817:SOMDtip_IPXIPTransportCClassData (OFFSET:0x0000f1a0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00818:SOMDtip_IPXIPTransportClassData (OFFSET:0x0000f200, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00819:SOMDtip_IPXIPTransportNewClass (OFFSET:0x0000f260, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00820:SOMDLocate_LocationServiceManagerCClassData (OFFSET:0x0000f2c0, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00821:SOMDLocate_LocationServiceManagerClassData (OFFSET:0x0000f340, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00822:SOMDLocate_LocationServiceManagerNewClass (OFFSET:0x0000f3c0, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00823:SOMDLocate_RemoteCallCClassData (OFFSET:0x0000f430, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00824:SOMDLocate_RemoteCallClassData (OFFSET:0x0000f490, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00825:SOMDLocate_RemoteCallNewClass (OFFSET:0x0000f4f0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00826:RemoteCallTable_key_compare (OFFSET:0x0000f550, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00827:RemoteCallTable_value_compare (OFFSET:0x0000f5b0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00828:RemoteCallTable_new (OFFSET:0x0000f610, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00829:RemoteCallTable_delete (OFFSET:0x0000f660, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00830:RemoteCallTable_at (OFFSET:0x0000f6b0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00831:RemoteCallTable_at_put (OFFSET:0x0000f700, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00832:RemoteCallTable_remove_key (OFFSET:0x0000f750, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00833:RemoteCallTable_remove (OFFSET:0x0000f7b0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00834:RemoteCallTable_keys (OFFSET:0x0000f800, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00835:CallStreamTable_key_compare (OFFSET:0x0000f850, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00836:CallStreamTable_value_compare (OFFSET:0x0000f8b0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00837:CallStreamTable_new (OFFSET:0x0000f910, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00838:CallStreamTable_delete (OFFSET:0x0000f960, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00839:CallStreamTable_at (OFFSET:0x0000f9b0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00840:CallStreamTable_at_put (OFFSET:0x0000fa00, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00841:CallStreamTable_remove_key (OFFSET:0x0000fa50, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00842:CallStreamTable_remove (OFFSET:0x0000fab0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00843:CallStreamTable_keys (OFFSET:0x0000fb00, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00844:somd_Flush_LLStorageList (OFFSET:0x0000fb50, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00845:somd_Flush_LLStorageNode (OFFSET:0x0000fba0, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00846:SOMD_FreeType (OFFSET:0x0000fbf0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00847:SOMD_MarshalSOMDIOR (OFFSET:0x0000fc30, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00848:SOMD_DemarshalSOMDIOR (OFFSET:0x0000fc80, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00849:SOMD_FreeSOMDIOR (OFFSET:0x0000fcd0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00850:SOMD_MarshalSOMDServiceContextList (OFFSET:0x0000fd10, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00851:SOMD_DemarshalSOMDServiceContextList (OFFSET:0x0000fd80, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00852:SOMD_FreeSOMDServiceContextList (OFFSET:0x0000fdf0, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00853:SOMD_MarshalSOMDReplyHeader (OFFSET:0x0000fe50, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00854:SOMD_DemarshalSOMDReplyHeader (OFFSET:0x0000feb0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00855:SOMD_FreeSOMDReplyHeader (OFFSET:0x0000ff10, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00856:somdRegisterMPs (OFFSET:0x0000ff60, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00857:somcsr_static_foreign_octet_marshaler (OFFSET:0x0000ffa0, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00858:somdGetClientEnv (OFFSET:0x00010010, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00859:SOMInitModule (OFFSET:0x00010050, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00860:copyStringFromBuf (OFFSET:0x00010090, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00861:getIntFromBuf (OFFSET:0x000100d0, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00862:getStringBufSize (OFFSET:0x00010110, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00863:getStringFromBuf (OFFSET:0x00010150, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00864:getStringLengthFromBuf (OFFSET:0x00010190, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00865:getTypeCodeBufSize (OFFSET:0x000101e0, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00866:getTypeCodeFromBuf (OFFSET:0x00010220, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00867:putIntInBuf (OFFSET:0x00010260, SIZE:0x00000030):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00868:putStringInBuf (OFFSET:0x00010290, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00869:putTypeCodeInBuf (OFFSET:0x000102d0, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00870:skipIntInBuf (OFFSET:0x00010310, SIZE:0x00000032):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00871:skipStringInBuf (OFFSET:0x00010350, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00872:skipTypeCodeInBuf (OFFSET:0x00010390, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00873:irDisableUpdates (OFFSET:0x000103d0, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00874:irEnableUpdates (OFFSET:0x00010410, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00875:irGetFileNames (OFFSET:0x00010450, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00876:irGetLastFileName (OFFSET:0x00010490, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00877:irRead (OFFSET:0x000104d0, SIZE:0x00000026):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00878:AttributeDefCClassData (OFFSET:0x00010500, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00879:AttributeDefClassData (OFFSET:0x00010550, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00880:AttributeDefNewClass (OFFSET:0x000105a0, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00881:ConstantDefCClassData (OFFSET:0x000105f0, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00882:ConstantDefClassData (OFFSET:0x00010640, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00883:ConstantDefNewClass (OFFSET:0x00010690, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00884:ContainedCClassData (OFFSET:0x000106d0, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00885:ContainedClassData (OFFSET:0x00010710, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00886:ContainedNewClass (OFFSET:0x00010750, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00887:ContainerCClassData (OFFSET:0x00010790, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00888:ContainerClassData (OFFSET:0x000107d0, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00889:ContainerNewClass (OFFSET:0x00010810, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00890:ExceptionDefCClassData (OFFSET:0x00010850, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00891:ExceptionDefClassData (OFFSET:0x000108a0, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00892:ExceptionDefNewClass (OFFSET:0x000108f0, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00893:InterfaceDefCClassData (OFFSET:0x00010940, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00894:InterfaceDefClassData (OFFSET:0x00010990, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00895:InterfaceDefNewClass (OFFSET:0x000109e0, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00896:ModuleDefCClassData (OFFSET:0x00010a30, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00897:ModuleDefClassData (OFFSET:0x00010a70, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00898:ModuleDefNewClass (OFFSET:0x00010ab0, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00899:OperationDefCClassData (OFFSET:0x00010af0, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00900:OperationDefClassData (OFFSET:0x00010b40, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00901:OperationDefNewClass (OFFSET:0x00010b90, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00902:ParameterDefCClassData (OFFSET:0x00010be0, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00903:ParameterDefClassData (OFFSET:0x00010c30, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00904:ParameterDefNewClass (OFFSET:0x00010c80, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00905:RepositoryCClassData (OFFSET:0x00010cd0, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00906:RepositoryClassData (OFFSET:0x00010d20, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00907:RepositoryNewClass (OFFSET:0x00010d60, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00908:M_RepositoryCClassData (OFFSET:0x00010da0, SIZE:0x00000046):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00909:M_RepositoryClassData (OFFSET:0x00010df0, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00910:M_RepositoryNewClass (OFFSET:0x00010e40, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00911:TypeDefCClassData (OFFSET:0x00010e90, SIZE:0x0000003c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00912:TypeDefClassData (OFFSET:0x00010ed0, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00913:TypeDefNewClass (OFFSET:0x00010f10, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00914:TC__null (OFFSET:0x00010f50, SIZE:0x0000002a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00915:TC__void (OFFSET:0x00010f80, SIZE:0x0000002a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00916:TC__short (OFFSET:0x00010fb0, SIZE:0x0000002c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00917:TC__long (OFFSET:0x00010fe0, SIZE:0x0000002a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00918:TC__ushort (OFFSET:0x00011010, SIZE:0x0000002e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00919:TC__ulong (OFFSET:0x00011040, SIZE:0x0000002c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00920:TC__float (OFFSET:0x00011070, SIZE:0x0000002c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00921:TC__double (OFFSET:0x000110a0, SIZE:0x0000002e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00922:TC__boolean (OFFSET:0x000110d0, SIZE:0x00000030):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00923:TC__char (OFFSET:0x00011100, SIZE:0x0000002a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00924:TC__octet (OFFSET:0x00011130, SIZE:0x0000002c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00925:TC__any (OFFSET:0x00011160, SIZE:0x00000028):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00926:TC__TypeCode (OFFSET:0x00011190, SIZE:0x00000032):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00927:TC__Principal (OFFSET:0x000111d0, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00928:TC__Object (OFFSET:0x00011210, SIZE:0x0000002e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00929:TC__string (OFFSET:0x00011240, SIZE:0x0000002e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00930:TC__NamedValue (OFFSET:0x00011270, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00931:TC__InterfaceDescription (OFFSET:0x000112b0, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00932:TC__OperationDescription (OFFSET:0x00011300, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00933:TC__AttributeDescription (OFFSET:0x00011350, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00934:TC__ParameterDescription (OFFSET:0x000113a0, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00935:TC__RepositoryDescription (OFFSET:0x000113f0, SIZE:0x0000004c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00936:TC__ModuleDescription (OFFSET:0x00011440, SIZE:0x00000044):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00937:TC__ConstDescription (OFFSET:0x00011490, SIZE:0x00000042):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00938:TC__ExceptionDescription (OFFSET:0x000114e0, SIZE:0x0000004a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00939:TC__TypeDescription (OFFSET:0x00011530, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00940:TC__FullInterfaceDescription (OFFSET:0x00011570, SIZE:0x00000052):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00941:tcAlignment (OFFSET:0x000115d0, SIZE:0x00000030):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00942:tcCopy (OFFSET:0x00011600, SIZE:0x00000026):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00943:tcEqual (OFFSET:0x00011630, SIZE:0x00000028):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00944:tcFree (OFFSET:0x00011660, SIZE:0x00000026):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00945:tcKind (OFFSET:0x00011690, SIZE:0x00000026):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00946:tcNew (OFFSET:0x000116c0, SIZE:0x00000024):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00947:tcNewVL (OFFSET:0x000116f0, SIZE:0x00000028):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00948:tcParameter (OFFSET:0x00011720, SIZE:0x00000030):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00949:tcParmCount (OFFSET:0x00011750, SIZE:0x00000030):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00950:tcPrint (OFFSET:0x00011780, SIZE:0x00000028):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00951:tcSequenceNew (OFFSET:0x000117b0, SIZE:0x00000034):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00952:tcSeqFromListString (OFFSET:0x000117f0, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00953:tcSetAlignment (OFFSET:0x00011830, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00954:tcSize (OFFSET:0x00011870, SIZE:0x00000026):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00955:tcDefaultAlignment (OFFSET:0x000118a0, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00956:tcBufferLength (OFFSET:0x000118e0, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00957:tcCopyToBuffer (OFFSET:0x00011920, SIZE:0x00000036):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00958:TCCalloc (OFFSET:0x00011960, SIZE:0x0000002a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00959:TCFree (OFFSET:0x00011990, SIZE:0x00000026):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00960:TCMalloc (OFFSET:0x000119c0, SIZE:0x0000002a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00961:TCRealloc (OFFSET:0x000119f0, SIZE:0x0000002c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00962:tciPrintf (OFFSET:0x00011a20, SIZE:0x0000002c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00963:tciSetException (OFFSET:0x00011a50, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00964:somVaBuf_create (OFFSET:0x00011a90, SIZE:0x00000038):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00965:somVaBuf_get_valist (OFFSET:0x00011ad0, SIZE:0x00000040):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00966:somVaBuf_destroy (OFFSET:0x00011b10, SIZE:0x0000003a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00967:somVaBuf_add (OFFSET:0x00011b50, SIZE:0x00000032):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00968:somvalistGetTarget (OFFSET:0x00011b90, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00969:somvalistSetTarget (OFFSET:0x00011bd0, SIZE:0x0000003e):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00970:M_SOMPPersistentObjectCClassData (OFFSET:0x00011c10, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00971:M_SOMPPersistentObjectClassData (OFFSET:0x00011c70, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00972:M_SOMPPersistentObjectNewClass (OFFSET:0x00011cd0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00973:SOMInitsomp (OFFSET:0x00011d30, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00974:SOMPAsciiCClassData (OFFSET:0x00011d60, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00975:SOMPAsciiClassData (OFFSET:0x00011da0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00976:SOMPAsciiMediaInterfaceCClassData (OFFSET:0x00011de0, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00977:SOMPAsciiMediaInterfaceClassData (OFFSET:0x00011e40, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00978:SOMPAsciiMediaInterfaceNewClass (OFFSET:0x00011ea0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00979:SOMPAsciiNewClass (OFFSET:0x00011f00, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00980:SOMPAttrEncoderDecoderCClassData (OFFSET:0x00011f40, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00981:SOMPAttrEncoderDecoderClassData (OFFSET:0x00011fa0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00982:SOMPAttrEncoderDecoderNewClass (OFFSET:0x00012000, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00983:SOMPBinaryCClassData (OFFSET:0x00012060, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00984:SOMPBinaryClassData (OFFSET:0x000120b0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00985:SOMPBinaryFileMediaCClassData (OFFSET:0x000120f0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00986:SOMPBinaryFileMediaClassData (OFFSET:0x00012150, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00987:SOMPBinaryFileMediaNewClass (OFFSET:0x000121b0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00988:SOMPBinaryNewClass (OFFSET:0x00012200, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00989:SOMPEncoderDecoderAbstractCClassData (OFFSET:0x00012240, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00990:SOMPEncoderDecoderAbstractClassData (OFFSET:0x000122b0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00991:SOMPEncoderDecoderAbstractNewClass (OFFSET:0x00012310, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00992:SOMPFileMediaAbstractCClassData (OFFSET:0x00012370, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00993:SOMPFileMediaAbstractClassData (OFFSET:0x000123d0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00994:SOMPFileMediaAbstractNewClass (OFFSET:0x00012430, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00995:SOMPIOGroupCClassData (OFFSET:0x00012490, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00996:SOMPIOGroupClassData (OFFSET:0x000124e0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00997:SOMPIOGroupMgrAbstractCClassData (OFFSET:0x00012530, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00998:SOMPIOGroupMgrAbstractClassData (OFFSET:0x00012590, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+00999:SOMPIOGroupMgrAbstractNewClass (OFFSET:0x000125f0, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01000:SOMPIOGroupNewClass (OFFSET:0x00012650, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01001:SOMPIdAssignerAbstractCClassData (OFFSET:0x00012690, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01002:SOMPIdAssignerAbstractClassData (OFFSET:0x000126f0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01003:SOMPIdAssignerAbstractNewClass (OFFSET:0x00012750, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01004:SOMPIdAssignerCClassData (OFFSET:0x000127b0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01005:SOMPIdAssignerClassData (OFFSET:0x00012800, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01006:SOMPIdAssignerNewClass (OFFSET:0x00012850, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01007:SOMPKeyedSetCClassData (OFFSET:0x000128a0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01008:SOMPKeyedSetClassData (OFFSET:0x000128f0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01009:SOMPKeyedSetNewClass (OFFSET:0x00012940, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01010:SOMPMediaInterfaceAbstractCClassData (OFFSET:0x00012990, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01011:SOMPMediaInterfaceAbstractClassData (OFFSET:0x00012a00, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01012:SOMPMediaInterfaceAbstractNewClass (OFFSET:0x00012a60, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01013:SOMPNameSpaceMgrCClassData (OFFSET:0x00012ac0, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01014:SOMPNameSpaceMgrClassData (OFFSET:0x00012b10, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01015:SOMPNameSpaceMgrNewClass (OFFSET:0x00012b60, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01016:SOMPObjectSetCClassData (OFFSET:0x00012bb0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01017:SOMPObjectSetClassData (OFFSET:0x00012c00, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01018:SOMPObjectSetNewClass (OFFSET:0x00012c50, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01019:SOMPPersistentIdCClassData (OFFSET:0x00012ca0, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01020:SOMPPersistentIdClassData (OFFSET:0x00012cf0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01021:SOMPPersistentIdNewClass (OFFSET:0x00012d40, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01022:SOMPPersistentObjectCClassData (OFFSET:0x00012d90, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01023:SOMPPersistentObjectClassData (OFFSET:0x00012df0, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01024:SOMPPersistentObjectNewClass (OFFSET:0x00012e50, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01025:SOMPPersistentStorageMgrCClassData (OFFSET:0x00012eb0, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01026:SOMPPersistentStorageMgrClassData (OFFSET:0x00012f10, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01027:SOMPPersistentStorageMgrNewClass (OFFSET:0x00012f70, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01028:dictKeyCharPjwCClassData (OFFSET:0x00012fd0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01029:dictKeyCharPjwClassData (OFFSET:0x00013020, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01030:dictKeyCharPjwNewClass (OFFSET:0x00013070, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01031:sompEndCriticalSection (OFFSET:0x000130c0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01032:sompExpandPidString (OFFSET:0x00013110, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01033:sompFileOpen (OFFSET:0x00013150, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01034:sompGetThreadId (OFFSET:0x00013190, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01035:sompInitPersistenceFW (OFFSET:0x000131d0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01036:sompNameSpaceMgr (OFFSET:0x00013220, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01037:sompNameSpaceMgrId (OFFSET:0x00013260, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01038:sompNameSpaceMgrIdString (OFFSET:0x000132a0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01039:sompPersistentObjId (OFFSET:0x000132f0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01040:sompPersistentObjIdString (OFFSET:0x00013330, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01041:sompPersistentStgMgrId (OFFSET:0x00013380, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01042:sompPersistentStgMgrIdString (OFFSET:0x000133d0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01043:sompPersistentStorageMgr (OFFSET:0x00013430, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01044:sompRaiseException (OFFSET:0x00013480, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01045:sompStartCriticalSection (OFFSET:0x000134c0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01046:sompSysDepInit (OFFSET:0x00013510, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01047:sompTblSize (OFFSET:0x00013550, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01048:sompfGetElapsedMicroSec (OFFSET:0x00013580, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01049:sompfGetTimer (OFFSET:0x000135d0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01050:sompfGetTimerName (OFFSET:0x00013610, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01051:sompfGetTimesTurnedOff (OFFSET:0x00013650, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01052:sompfGetTimesTurnedOn (OFFSET:0x000136a0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01053:sompfInitTimers (OFFSET:0x000136f0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01054:sompfPrintTimer (OFFSET:0x00013730, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01055:sompfPrintTimers (OFFSET:0x00013770, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01056:sompfTestTimers (OFFSET:0x000137b0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01057:sompgDummyTimeZone (OFFSET:0x000137f0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01058:SOM_WatchFrequency (OFFSET:0x00013830, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01059:SOM_WatchLevel (OFFSET:0x00013870, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01060:somCheckHeap (OFFSET:0x000138b0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01061:somCheckHeapAll (OFFSET:0x000138f0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01062:somCheckMemBlock (OFFSET:0x00013930, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01063:somExternalizeCommandInit (OFFSET:0x00013970, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01064:somShowHeap (OFFSET:0x000139c0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01065:somShowMemBlock (OFFSET:0x000139f0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01066:somWatchGetStats (OFFSET:0x00013a30, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01067:somWatchInit (OFFSET:0x00013a70, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01068:somWatchStart (OFFSET:0x00013ab0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01069:somutExtCommand (OFFSET:0x00013af0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01070:somutExternalizeObject (OFFSET:0x00013b30, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01071:somutIntCommand (OFFSET:0x00013b80, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01072:somutInternalizeObject (OFFSET:0x00013bc0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01073:somwatchCalloc (OFFSET:0x00013c10, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01074:somwatchFree (OFFSET:0x00013c50, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01075:somwatchMalloc (OFFSET:0x00013c90, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01076:somwatchRealloc (OFFSET:0x00013cd0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01077:somwatchTrace (OFFSET:0x00013d10, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01078:SOMStartThread (OFFSET:0x00013d50, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01079:SOMEndThread (OFFSET:0x00013d90, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01080:SOMKillThread (OFFSET:0x00013dd0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01081:SOMGetThreadHandle (OFFSET:0x00013e10, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01082:SOMYieldThread (OFFSET:0x00013e50, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01083:SOMInitModule (OFFSET:0x00013e90, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01084:somUUIDToString (OFFSET:0x00013ed0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01085:somStringToUUID (OFFSET:0x00013f10, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01086:somCreateUUID (OFFSET:0x00013f50, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01087:somCompareUUIDStrings (OFFSET:0x00013f90, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01088:somuGetAddr (OFFSET:0x00013fe0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01089:somuGetTime (OFFSET:0x00014010, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01090:somuMaxPathLen (OFFSET:0x00014040, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01091:somustrcmp (OFFSET:0x00014080, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01092:somulowercase (OFFSET:0x000140b0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01093:somuuppercase (OFFSET:0x000140f0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01094:somudbcsLastChar (OFFSET:0x00014130, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01095:somudbcsPostincr (OFFSET:0x00014170, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01096:somudbcsPreincr (OFFSET:0x000141b0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01097:somudbcsScan (OFFSET:0x000141f0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01098:somudbcsStrchr (OFFSET:0x00014230, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01099:somudbcsStrrchr (OFFSET:0x00014270, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01100:somudbcsStrstr (OFFSET:0x000142b0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01101:somudbcslowercase (OFFSET:0x000142f0, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01102:somudbcsuppercase (OFFSET:0x00014330, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01103:somuisDbcs (OFFSET:0x00014370, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01104:somutsearchFile (OFFSET:0x000143a0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01105:somutfexists (OFFSET:0x000143e0, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01106:somutnextword (OFFSET:0x00014420, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01107:somutskipws (OFFSET:0x00014460, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01108:somutgetenv (OFFSET:0x00014490, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01109:somutgetshellenv (OFFSET:0x000144c0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01110:somutcreateIni (OFFSET:0x00014500, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01111:somutparseIni (OFFSET:0x00014540, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01112:somutgetValueFromSection (OFFSET:0x00014580, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01113:somutgetValue (OFFSET:0x000145d0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01114:somutaddSymbolToSection (OFFSET:0x00014610, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01115:somutresetenv (OFFSET:0x00014660, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01116:somutstabFirst (OFFSET:0x000146a0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01117:somutstabFirstName (OFFSET:0x000146e0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01118:somutstabNext (OFFSET:0x00014720, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01119:somutstabNextName (OFFSET:0x00014760, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01120:somutGetINIFlags (OFFSET:0x000147a0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01121:somutSetINIFlags (OFFSET:0x000147e0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01122:somCreateLookupTable (OFFSET:0x00014820, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01123:somDeleteLookupTable (OFFSET:0x00014870, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01124:somInsertIntoLookupTable (OFFSET:0x000148c0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01125:somFindElementInLookupTable (OFFSET:0x00014910, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01126:somRemoveElementFromLookupTable (OFFSET:0x00014960, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01127:somFindKeyInLookupTable (OFFSET:0x000149c0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01128:somRemoveKeyFromLookupTable (OFFSET:0x00014a10, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01129:somLookupTableCacheCallback (OFFSET:0x00014a60, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01130:somLookupTableDumpAll (OFFSET:0x00014ab0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01131:somLookupTableDumpKeys (OFFSET:0x00014b00, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01132:somLookupTableDumpElements (OFFSET:0x00014b50, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01133:SOMBeginThread (OFFSET:0x00014ba0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01134:somutMsgManagerClassData (OFFSET:0x00014be0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01135:somutMsgManagerCClassData (OFFSET:0x00014c30, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01136:somutMsgManagerNewClass (OFFSET:0x00014c80, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01137:M_somutMsgManagerClassData (OFFSET:0x00014cd0, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01138:M_somutMsgManagerCClassData (OFFSET:0x00014d20, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01139:M_somutMsgManagerNewClass (OFFSET:0x00014d70, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01140:SOMArgListClassData (OFFSET:0x00014dc0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01141:SOMArgListCClassData (OFFSET:0x00014e00, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01142:SOMArgListNewClass (OFFSET:0x00014e50, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01143:SOMMBeforeAfterClassData (OFFSET:0x00014e90, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01144:SOMMBeforeAfterCClassData (OFFSET:0x00014ee0, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01145:SOMMBeforeAfterNewClass (OFFSET:0x00014f30, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01146:SOMMBeforeAfterDispatcherClassData (OFFSET:0x00014f80, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01147:SOMMBeforeAfterDispatcherCClassData (OFFSET:0x00014fe0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01148:SOMMBeforeAfterDispatcherNewClass (OFFSET:0x00015040, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01149:SOMBufClassData (OFFSET:0x000150a0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01150:SOMBufCClassData (OFFSET:0x000150e0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01151:SOMBufNewClass (OFFSET:0x00015120, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01152:SOMCommandClassData (OFFSET:0x00015160, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01153:SOMCommandCClassData (OFFSET:0x000151a0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01154:SOMCommandNewClass (OFFSET:0x000151f0, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01155:SOMDescClassData (OFFSET:0x00015230, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01156:SOMDescCClassData (OFFSET:0x00015270, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01157:SOMDescNewClass (OFFSET:0x000152b0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01158:SOMUTIdClassData (OFFSET:0x000152f0, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01159:SOMUTIdCClassData (OFFSET:0x00015330, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01160:SOMUTIdNewClass (OFFSET:0x00015370, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01161:SOMUTStringIdCClassData (OFFSET:0x000153b0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01162:SOMUTStringIdClassData (OFFSET:0x00015400, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01163:SOMUTStringIdNewClass (OFFSET:0x00015450, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01164:SOMMMetaCooperativeClassData (OFFSET:0x000154a0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01165:SOMMMetaCooperativeCClassData (OFFSET:0x00015500, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01166:SOMMMetaCooperativeNewClass (OFFSET:0x00015560, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01167:SOMMCooperativeClassData (OFFSET:0x000155b0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01168:SOMMCooperativeCClassData (OFFSET:0x00015600, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01169:SOMMCooperativeNewClass (OFFSET:0x00015650, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01170:SOMMCooperativeSisteredClassData (OFFSET:0x000156a0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01171:SOMMCooperativeSisteredCClassData (OFFSET:0x00015700, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01172:SOMMCooperativeSisteredNewClass (OFFSET:0x00015760, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01173:SOMMCooperativeRedispatchedClassData (OFFSET:0x000157c0, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01174:SOMMCooperativeRedispatchedCClassData (OFFSET:0x00015830, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01175:SOMMCooperativeRedispatchedNewClass (OFFSET:0x000158a0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01176:SOMMProxyForClassData (OFFSET:0x00015900, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01177:SOMMProxyForCClassData (OFFSET:0x00015950, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01178:SOMMProxyForNewClass (OFFSET:0x000159a0, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01179:SOMMProxyForObjectClassData (OFFSET:0x000159f0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01180:SOMMProxyForObjectCClassData (OFFSET:0x00015a40, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01181:SOMMProxyForObjectNewClass (OFFSET:0x00015aa0, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01182:SOMMTracedClassData (OFFSET:0x00015af0, SIZE:0x0000003f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01183:SOMMTracedCClassData (OFFSET:0x00015b30, SIZE:0x00000041):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01184:SOMMTracedNewClass (OFFSET:0x00015b80, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01185:SOMMSingleInstanceClassData (OFFSET:0x00015bc0, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01186:SOMMSingleInstanceCClassData (OFFSET:0x00015c10, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01187:SOMMSingleInstanceNewClass (OFFSET:0x00015c70, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01188:SOMThreadJoin (OFFSET:0x00015cc0, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01189:SOMGetMutexOwner (OFFSET:0x00015d00, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01190:SOMCreateEventSem (OFFSET:0x00015d40, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01191:SOMDestroyEventSem (OFFSET:0x00015d80, SIZE:0x0000003d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01192:SOMPostEventSem (OFFSET:0x00015dc0, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01193:SOMWaitEventSem (OFFSET:0x00015e00, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01194:SOMCreateSharedEventSem (OFFSET:0x00015e40, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01195:SOMOpenSharedEventSem (OFFSET:0x00015e90, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01196:SOMCloseSharedEventSem (OFFSET:0x00015ee0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01197:SOMDestroySharedEventSem (OFFSET:0x00015f30, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01198:SOMPostSharedEventSem (OFFSET:0x00015f80, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01199:SOMWaitSharedEventSem (OFFSET:0x00015fd0, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01200:SOMCreateSharedMutexSem (OFFSET:0x00016020, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01201:SOMOpenSharedMutexSem (OFFSET:0x00016070, SIZE:0x00000043):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01202:SOMCloseSharedMutexSem (OFFSET:0x000160c0, SIZE:0x00000045):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01203:SOMDestroySharedMutexSem (OFFSET:0x00016110, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01204:SOMRequestSharedMutexSem (OFFSET:0x00016160, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01205:SOMReleaseSharedMutexSem (OFFSET:0x000161b0, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01206:SOMThreadDetach (OFFSET:0x00016200, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01207:TypecodeDataManipulatorCClassData (OFFSET:0x00016240, SIZE:0x0000005c):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01208:TypecodeDataManipulatorClassData (OFFSET:0x000162a0, SIZE:0x0000005a):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01209:TypecodeDataManipulatorNewClass (OFFSET:0x00016300, SIZE:0x00000058):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01210:CosNaming_BindingIteratorCClassData (OFFSET:0x00016360, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01211:CosNaming_BindingIteratorClassData (OFFSET:0x000163d0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01212:CosNaming_BindingIteratorNewClass (OFFSET:0x00016430, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01213:CosNaming_NamingContextCClassData (OFFSET:0x00016490, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01214:CosNaming_NamingContextClassData (OFFSET:0x000164f0, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01215:CosNaming_NamingContextNewClass (OFFSET:0x00016550, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01216:ExtendedNaming_PropertyBindingIteratorCClassData (OFFSET:0x000165b0, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01217:ExtendedNaming_PropertyBindingIteratorClassData (OFFSET:0x00016630, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01218:ExtendedNaming_PropertyBindingIteratorNewClass (OFFSET:0x000166b0, SIZE:0x00000077):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01219:ExtendedNaming_PropertyIteratorCClassData (OFFSET:0x00016730, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01220:ExtendedNaming_PropertyIteratorClassData (OFFSET:0x000167a0, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01221:ExtendedNaming_PropertyIteratorNewClass (OFFSET:0x00016810, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01222:ExtendedNaming_IndexIteratorCClassData (OFFSET:0x00016880, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01223:ExtendedNaming_IndexIteratorClassData (OFFSET:0x000168f0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01224:ExtendedNaming_IndexIteratorNewClass (OFFSET:0x00016960, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01225:ExtendedNaming_ExtendedNamingContextCClassData (OFFSET:0x000169d0, SIZE:0x00000077):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01226:ExtendedNaming_ExtendedNamingContextClassData (OFFSET:0x00016a50, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01227:ExtendedNaming_ExtendedNamingContextNewClass (OFFSET:0x00016ad0, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01228:LNameCClassData (OFFSET:0x00016b50, SIZE:0x00000039):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01229:LNameClassData (OFFSET:0x00016b90, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01230:LNameNewClass (OFFSET:0x00016bd0, SIZE:0x00000035):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01231:LNameComponentCClassData (OFFSET:0x00016c10, SIZE:0x0000004b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01232:LNameComponentClassData (OFFSET:0x00016c60, SIZE:0x00000049):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01233:LNameComponentNewClass (OFFSET:0x00016cb0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01234:FileXNaming_FileENCCClassData (OFFSET:0x00016d00, SIZE:0x00000055):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01235:FileXNaming_FileENCClassData (OFFSET:0x00016d60, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01236:FileXNaming_FileENCNewClass (OFFSET:0x00016dc0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01237:FileXNaming_FileBindingIteratorCClassData (OFFSET:0x00016e20, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01238:FileXNaming_FileBindingIteratorClassData (OFFSET:0x00016e90, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01239:FileXNaming_FileBindingIteratorNewClass (OFFSET:0x00016f00, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01240:FileXNaming_FPropertyBindingIteratorCClassData (OFFSET:0x00016f70, SIZE:0x00000077):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01241:FileXNaming_FPropertyBindingIteratorClassData (OFFSET:0x00016ff0, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01242:FileXNaming_FPropertyBindingIteratorNewClass (OFFSET:0x00017070, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01243:FileXNaming_FPropertyIteratorCClassData (OFFSET:0x000170f0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01244:FileXNaming_FPropertyIteratorClassData (OFFSET:0x00017160, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01245:FileXNaming_FPropertyIteratorNewClass (OFFSET:0x000171d0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01246:Biter_BINDITER_TWOCClassData (OFFSET:0x00017240, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01247:Biter_BINDITER_TWOClassData (OFFSET:0x000172a0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01248:Biter_BINDITER_TWONewClass (OFFSET:0x00017300, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01249:Biter_BINDITER_ONECClassData (OFFSET:0x00017350, SIZE:0x00000053):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01250:Biter_BINDITER_ONEClassData (OFFSET:0x000173b0, SIZE:0x00000051):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01251:Biter_BINDITER_ONENewClass (OFFSET:0x00017410, SIZE:0x0000004f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01252:FileXNaming_FileIndexIteratorCClassData (OFFSET:0x00017460, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01253:FileXNaming_FileIndexIteratorClassData (OFFSET:0x000174d0, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01254:FileXNaming_FileIndexIteratorNewClass (OFFSET:0x00017540, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01255:create_lname_component (OFFSET:0x000175b0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01256:create_lname (OFFSET:0x00017600, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01257:firstContext (OFFSET:0x00017640, SIZE:0x00000033):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01258:restName (OFFSET:0x00017680, SIZE:0x0000002b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01259:printName (OFFSET:0x000176b0, SIZE:0x0000002d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01260:mkNullName (OFFSET:0x000176e0, SIZE:0x0000002f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01261:somnmLogMsg (OFFSET:0x00017710, SIZE:0x00000031):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01262:SOMInitModule (OFFSET:0x00017750, SIZE:0x00000037):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01263:CosObjectIdentity_IdentifiableObjectCClassData (OFFSET:0x00017790, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01264:CosObjectIdentity_IdentifiableObjectClassData (OFFSET:0x00017810, SIZE:0x00000077):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01265:CosObjectIdentity_IdentifiableObjectNewClass (OFFSET:0x00017890, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01266:somRAS_error_log (OFFSET:0x00017910, SIZE:0x0000003b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01267:rtn_SOMRAS_EL_RaisingException (OFFSET:0x00017950, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01268:rtn_SOMRAS_EL_MappingException (OFFSET:0x000179b0, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01269:rtn_SOMRAS_EL_AbnormalTermination (OFFSET:0x00017a10, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01270:rtn_SOMRAS_EL_ServiceData (OFFSET:0x00017a70, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01271:somRAS_el_block_stdout (OFFSET:0x00017ac0, SIZE:0x00000047):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01272:somRAS_el_get_client_host (OFFSET:0x00017b10, SIZE:0x0000004d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01273:CosEventComm_PushConsumerCClassData (OFFSET:0x00017b60, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01274:CosEventComm_PushConsumerClassData (OFFSET:0x00017bd0, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01275:CosEventComm_PushConsumerNewClass (OFFSET:0x00017c40, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01276:CosEventComm_PullConsumerCClassData (OFFSET:0x00017ca0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01277:CosEventComm_PullConsumerClassData (OFFSET:0x00017d10, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01278:CosEventComm_PullConsumerNewClass (OFFSET:0x00017d80, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01279:CosEventComm_PushSupplierCClassData (OFFSET:0x00017de0, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01280:CosEventComm_PushSupplierClassData (OFFSET:0x00017e50, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01281:CosEventComm_PushSupplierNewClass (OFFSET:0x00017ec0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01282:CosEventComm_PullSupplierCClassData (OFFSET:0x00017f20, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01283:CosEventComm_PullSupplierClassData (OFFSET:0x00017f90, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01284:CosEventComm_PullSupplierNewClass (OFFSET:0x00018000, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01285:CosEventChannelAdmin_ProxyPushConsumerCClassData (OFFSET:0x00018060, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01286:CosEventChannelAdmin_ProxyPushConsumerClassData (OFFSET:0x000180e0, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01287:CosEventChannelAdmin_ProxyPushConsumerNewClass (OFFSET:0x00018160, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01288:CosEventChannelAdmin_ProxyPushSupplierCClassData (OFFSET:0x000181e0, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01289:CosEventChannelAdmin_ProxyPushSupplierClassData (OFFSET:0x00018260, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01290:CosEventChannelAdmin_ProxyPushSupplierNewClass (OFFSET:0x000182e0, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01291:CosEventChannelAdmin_ProxyPullConsumerCClassData (OFFSET:0x00018360, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01292:CosEventChannelAdmin_ProxyPullConsumerClassData (OFFSET:0x000183e0, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01293:CosEventChannelAdmin_ProxyPullConsumerNewClass (OFFSET:0x00018460, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01294:CosEventChannelAdmin_ProxyPullSupplierCClassData (OFFSET:0x000184e0, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01295:CosEventChannelAdmin_ProxyPullSupplierClassData (OFFSET:0x00018560, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01296:CosEventChannelAdmin_ProxyPullSupplierNewClass (OFFSET:0x000185e0, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01297:CosEventChannelAdmin_ConsumerAdminCClassData (OFFSET:0x00018660, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01298:CosEventChannelAdmin_ConsumerAdminClassData (OFFSET:0x000186e0, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01299:CosEventChannelAdmin_ConsumerAdminNewClass (OFFSET:0x00018760, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01300:CosEventChannelAdmin_SupplierAdminCClassData (OFFSET:0x000187e0, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01301:CosEventChannelAdmin_SupplierAdminClassData (OFFSET:0x00018860, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01302:CosEventChannelAdmin_SupplierAdminNewClass (OFFSET:0x000188e0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01303:CosEventChannelAdmin_EventChannelCClassData (OFFSET:0x00018960, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01304:CosEventChannelAdmin_EventChannelClassData (OFFSET:0x000189e0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01305:CosEventChannelAdmin_EventChannelNewClass (OFFSET:0x00018a60, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01306:EventFramework_LockableObjectCClassData (OFFSET:0x00018ad0, SIZE:0x0000006b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01307:EventFramework_LockableObjectClassData (OFFSET:0x00018b40, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01308:EventFramework_LockableObjectNewClass (OFFSET:0x00018bb0, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01309:EventFramework_RecursiveLockableObjectCClassData (OFFSET:0x00018c20, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01310:EventFramework_RecursiveLockableObjectClassData (OFFSET:0x00018ca0, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01311:EventFramework_RecursiveLockableObjectNewClass (OFFSET:0x00018d20, SIZE:0x00000079):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01312:EventFramework_ProxyCollectibleKeyCClassData (OFFSET:0x00018da0, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01313:EventFramework_ProxyCollectibleKeyClassData (OFFSET:0x00018e20, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01314:EventFramework_ProxyCollectibleKeyNewClass (OFFSET:0x00018ea0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01315:EventFramework_ProxyCollectibleDataCClassData (OFFSET:0x00018f20, SIZE:0x00000077):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01316:EventFramework_ProxyCollectibleDataClassData (OFFSET:0x00018fa0, SIZE:0x00000075):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01317:EventFramework_ProxyCollectibleDataNewClass (OFFSET:0x00019020, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01318:EventFramework_ProxySetCClassData (OFFSET:0x000190a0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01319:EventFramework_ProxySetClassData (OFFSET:0x00019100, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01320:EventFramework_ProxySetNewClass (OFFSET:0x00019160, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01321:EventFramework_FrameworkContainerObjectCClassData (OFFSET:0x000191c0, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01322:EventFramework_FrameworkContainerObjectClassData (OFFSET:0x00019240, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01323:EventFramework_FrameworkContainerObjectNewClass (OFFSET:0x000192c0, SIZE:0x0000007b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01324:EventFramework_BasePolicyCClassData (OFFSET:0x00019340, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01325:EventFramework_BasePolicyClassData (OFFSET:0x000193b0, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01326:EventFramework_BasePolicyNewClass (OFFSET:0x00019420, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01327:EventFramework_GlobalPolicyCClassData (OFFSET:0x00019480, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01328:EventFramework_GlobalPolicyClassData (OFFSET:0x000194f0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01329:EventFramework_GlobalPolicyNewClass (OFFSET:0x00019560, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01330:EventFramework_LocalPolicyCClassData (OFFSET:0x000195d0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01331:EventFramework_LocalPolicyClassData (OFFSET:0x00019640, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01332:EventFramework_LocalPolicyNewClass (OFFSET:0x000196b0, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01333:EventFramework_ProxyPullSupplierLocalPolicyCClassData (OFFSET:0x00019720, SIZE:0x00000087):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01334:EventFramework_ProxyPullSupplierLocalPolicyClassData (OFFSET:0x000197b0, SIZE:0x00000085):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01335:EventFramework_ProxyPullSupplierLocalPolicyNewClass (OFFSET:0x00019840, SIZE:0x00000083):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01336:EventFramework_ProxyPullConsumerLocalPolicyCClassData (OFFSET:0x000198d0, SIZE:0x00000087):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01337:EventFramework_ProxyPullConsumerLocalPolicyClassData (OFFSET:0x00019960, SIZE:0x00000085):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01338:EventFramework_ProxyPullConsumerLocalPolicyNewClass (OFFSET:0x000199f0, SIZE:0x00000083):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01339:EventFramework_BaseProxyCClassData (OFFSET:0x00019a80, SIZE:0x00000061):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01340:EventFramework_BaseProxyClassData (OFFSET:0x00019af0, SIZE:0x0000005f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01341:EventFramework_BaseProxyNewClass (OFFSET:0x00019b50, SIZE:0x0000005d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01342:EventFramework_ProxyPushSupplierCClassData (OFFSET:0x00019bb0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01343:EventFramework_ProxyPushSupplierClassData (OFFSET:0x00019c30, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01344:EventFramework_ProxyPushSupplierNewClass (OFFSET:0x00019ca0, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01345:EventFramework_ProxyPullSupplierCClassData (OFFSET:0x00019d10, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01346:EventFramework_ProxyPullSupplierClassData (OFFSET:0x00019d90, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01347:EventFramework_ProxyPullSupplierNewClass (OFFSET:0x00019e00, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01348:EventFramework_ProxyPushConsumerCClassData (OFFSET:0x00019e70, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01349:EventFramework_ProxyPushConsumerClassData (OFFSET:0x00019ef0, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01350:EventFramework_ProxyPushConsumerNewClass (OFFSET:0x00019f60, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01351:EventFramework_ProxyPullConsumerCClassData (OFFSET:0x00019fd0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01352:EventFramework_ProxyPullConsumerClassData (OFFSET:0x0001a050, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01353:EventFramework_ProxyPullConsumerNewClass (OFFSET:0x0001a0c0, SIZE:0x0000006d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01354:EventFramework_EventChannelObjectCClassData (OFFSET:0x0001a130, SIZE:0x00000073):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01355:EventFramework_EventChannelObjectClassData (OFFSET:0x0001a1b0, SIZE:0x00000071):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01356:EventFramework_EventChannelObjectNewClass (OFFSET:0x0001a230, SIZE:0x0000006f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01357:EventFramework_ConsumerAdminCClassData (OFFSET:0x0001a2a0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01358:EventFramework_ConsumerAdminClassData (OFFSET:0x0001a310, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01359:EventFramework_ConsumerAdminNewClass (OFFSET:0x0001a380, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01360:EventFramework_SupplierAdminCClassData (OFFSET:0x0001a3f0, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01361:EventFramework_SupplierAdminClassData (OFFSET:0x0001a460, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01362:EventFramework_SupplierAdminNewClass (OFFSET:0x0001a4d0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01363:SomEventService_LinkedEventCClassData (OFFSET:0x0001a540, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01364:SomEventService_LinkedEventClassData (OFFSET:0x0001a5b0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01365:SomEventService_LinkedEventNewClass (OFFSET:0x0001a620, SIZE:0x00000063):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01366:SomEventService_QueueCClassData (OFFSET:0x0001a690, SIZE:0x0000005b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01367:SomEventService_QueueClassData (OFFSET:0x0001a6f0, SIZE:0x00000059):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01368:SomEventService_QueueNewClass (OFFSET:0x0001a750, SIZE:0x00000057):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01369:SomEventService_DefaultFrameworkContainerCClassData (OFFSET:0x0001a7b0, SIZE:0x00000083):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01370:SomEventService_DefaultFrameworkContainerClassData (OFFSET:0x0001a840, SIZE:0x00000081):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01371:SomEventService_DefaultFrameworkContainerNewClass (OFFSET:0x0001a8d0, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01372:SomEventService_DefaultProxyGlobalPolicyCClassData (OFFSET:0x0001a950, SIZE:0x00000081):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01373:SomEventService_DefaultProxyGlobalPolicyClassData (OFFSET:0x0001a9e0, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01374:SomEventService_DefaultProxyGlobalPolicyNewClass (OFFSET:0x0001aa60, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01375:SomEventService_DefaultEventChannelGlobalPolicyCClassData (OFFSET:0x0001aae0, SIZE:0x0000008f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01376:SomEventService_DefaultEventChannelGlobalPolicyClassData (OFFSET:0x0001ab70, SIZE:0x0000008d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01377:SomEventService_DefaultEventChannelGlobalPolicyNewClass (OFFSET:0x0001ac00, SIZE:0x0000008b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01378:SomEventService_DefaultProxyPushSupplierLocalPolicyCClassData (OFFSET:0x0001ac90, SIZE:0x00000097):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01379:SomEventService_DefaultProxyPushSupplierLocalPolicyClassData (OFFSET:0x0001ad30, SIZE:0x00000095):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01380:SomEventService_DefaultProxyPushSupplierLocalPolicyNewClass (OFFSET:0x0001add0, SIZE:0x00000093):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01381:SomEventService_DefaultProxyPushConsumerLocalPolicyCClassData (OFFSET:0x0001ae70, SIZE:0x00000097):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01382:SomEventService_DefaultProxyPushConsumerLocalPolicyClassData (OFFSET:0x0001af10, SIZE:0x00000095):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01383:SomEventService_DefaultProxyPushConsumerLocalPolicyNewClass (OFFSET:0x0001afb0, SIZE:0x00000093):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01384:SomEventService_DefaultProxyPullSupplierLocalPolicyCClassData (OFFSET:0x0001b050, SIZE:0x00000097):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01385:SomEventService_DefaultProxyPullSupplierLocalPolicyClassData (OFFSET:0x0001b0f0, SIZE:0x00000095):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01386:SomEventService_DefaultProxyPullSupplierLocalPolicyNewClass (OFFSET:0x0001b190, SIZE:0x00000093):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01387:SomEventService_DefaultProxyPullConsumerLocalPolicyCClassData (OFFSET:0x0001b230, SIZE:0x00000097):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01388:SomEventService_DefaultProxyPullConsumerLocalPolicyClassData (OFFSET:0x0001b2d0, SIZE:0x00000095):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01389:SomEventService_DefaultProxyPullConsumerLocalPolicyNewClass (OFFSET:0x0001b370, SIZE:0x00000093):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01390:SomEventService_DefaultProxyPushSupplierCClassData (OFFSET:0x0001b410, SIZE:0x00000081):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01391:SomEventService_DefaultProxyPushSupplierClassData (OFFSET:0x0001b4a0, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01392:SomEventService_DefaultProxyPushSupplierNewClass (OFFSET:0x0001b520, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01393:SomEventService_DefaultProxyPushConsumerCClassData (OFFSET:0x0001b5a0, SIZE:0x00000081):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01394:SomEventService_DefaultProxyPushConsumerClassData (OFFSET:0x0001b630, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01395:SomEventService_DefaultProxyPushConsumerNewClass (OFFSET:0x0001b6b0, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01396:SomEventService_DefaultProxyPullSupplierCClassData (OFFSET:0x0001b730, SIZE:0x00000081):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01397:SomEventService_DefaultProxyPullSupplierClassData (OFFSET:0x0001b7c0, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01398:SomEventService_DefaultProxyPullSupplierNewClass (OFFSET:0x0001b840, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01399:SomEventService_DefaultProxyPullConsumerCClassData (OFFSET:0x0001b8c0, SIZE:0x00000081):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01400:SomEventService_DefaultProxyPullConsumerClassData (OFFSET:0x0001b950, SIZE:0x0000007f):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01401:SomEventService_DefaultProxyPullConsumerNewClass (OFFSET:0x0001b9d0, SIZE:0x0000007d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01402:SomEventService_DefaultEventChannelLocalPolicyCClassData (OFFSET:0x0001ba50, SIZE:0x0000008d):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01403:SomEventService_DefaultEventChannelLocalPolicyClassData (OFFSET:0x0001bae0, SIZE:0x0000008b):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01404:SomEventService_DefaultEventChannelLocalPolicyNewClass (OFFSET:0x0001bb70, SIZE:0x00000089):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01405:SomEventService_EventChannelCClassData (OFFSET:0x0001bc00, SIZE:0x00000069):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01406:SomEventService_EventChannelClassData (OFFSET:0x0001bc70, SIZE:0x00000067):
+ - Public Definitions:
+
+ - External Definitions:
+
+
+01407:SomEventService_EventChannelNewClass (OFFSET:0x0001bce0, SIZE:0x00000065):
+ - Public Definitions:
+
+ - External Definitions:
+
+

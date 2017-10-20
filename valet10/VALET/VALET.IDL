@@ -1,0 +1,35 @@
+#include <somobj.idl>
+#include <garage.idl>
+#include <TktbookS.idl>
+
+interface Car;
+
+interface Valet : SOMObject
+{
+ attribute string valetName;
+ attribute long valetID;
+
+ Ticket parkCar(in Car aCar);           /*parkCar method*/
+ Car retrieveCar(in Ticket aTicket);   /*retrieveCar method*/
+
+ #ifdef __SOMIDL__
+ implementation
+   {
+    Garage aGarage;
+    TktBookS aTicketBookSystem;
+
+    passthru C_xh =    "#include \"Ticket.xh\""
+                       "#include \"Car.xh\""
+                       "#include \"Garage.xh\""
+                       "#include <TktBooks.xh>";
+
+    dllname = "valet.dll";
+    releaseorder : _get_valetName, _set_valetName, _get_valetID, _set_valetID,
+                   parkCar, retrieveCar;
+    somDefaultInit : override, init;
+    somDestruct : override;
+   };
+ #endif
+};
+
+

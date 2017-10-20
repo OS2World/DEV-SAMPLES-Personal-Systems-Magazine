@@ -1,0 +1,16 @@
+To run the  Valet_parking app, perform the following
+
+md x:\valet
+cd x:\valet
+pkunzip2 -d valet10.zip
+set beginlibpath=x:\valet\dll;
+set somir=%somir%;x:\valet\valet.ir;
+cd client
+client
+
+
+The client program will read use the file CAR.SCR as a script to park
+and retrieve cars.
+
+
+

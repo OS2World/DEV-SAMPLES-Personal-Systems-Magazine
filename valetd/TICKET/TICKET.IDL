@@ -1,0 +1,22 @@
+#include <somobj.idl>
+
+interface Ticket : SOMObject
+{
+ attribute long ticketNum;
+ attribute long parkingSlotNum;
+
+ #ifdef __SOMIDL__
+ implementation
+  {
+   dllname = "ticket.dll";
+   releaseorder : _get_ticketNum, _set_ticketNum, _get_parkingSlotNum,
+                  _set_parkingSlotNum;
+
+   //Following two lines added for DSOM
+   somDefaultInit : override, init;
+   somDestruct : override;
+
+  };
+ #endif
+};
+

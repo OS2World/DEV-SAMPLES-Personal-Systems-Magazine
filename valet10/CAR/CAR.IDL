@@ -1,0 +1,26 @@
+#include <mlink.idl>
+
+interface Car : somf_MLinkable
+{
+ attribute string color;
+ attribute string make;
+ attribute string model;
+
+
+ #ifdef __SOMIDL__
+ implementation
+   {
+    dllname = "car.dll";
+    releaseorder : _get_color, _set_color, _get_make, _set_make, _get_model,
+                   _set_model;
+
+    _set_color : noset;
+    _set_make  : noset;
+    _set_model : noset;
+    somDefaultInit : override, init;
+    somDestruct : override;
+   };
+ #endif
+};
+
+

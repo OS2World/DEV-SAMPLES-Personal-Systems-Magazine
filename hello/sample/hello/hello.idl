@@ -1,0 +1,155 @@
+#ifndef _HELLO_
+#define _HELLO_
+
+#ifndef _PART_
+#include "part.idl"
+#endif
+
+interface PartInfoRec;
+interface FrameInfoRec;
+interface ODxOrderedCollection;
+interface ODArbitrator;
+interface ODByteArray;
+interface ODFocusSet;
+interface ODPopup;
+interface ODSession;
+
+interface M_HelloPart;
+
+interface HelloPart : ODPart
+{
+      void CommonInit(in ODPart partWrapper);
+      void ReadContent();
+      void WriteContent(in ODStorageUnit su);
+      attribute string data;
+
+#ifdef __SOMIDL__
+   implementation
+      {
+      functionprefix = Hello;
+      metaclass = M_HelloPart;
+
+      releaseorder:
+         CommonInit,
+         ReadContent,
+         WriteContent,
+         _get_data,
+         _set_data;
+
+#// Required overrides per Table 2.1 of OpenDoc Programmers Guide
+      override:
+#// Storage
+         somInit,
+         somUninit,
+         InitPart,
+         InitPartFromStorage,
+         Externalize,
+         ExternalizeKinds,
+         CloneInto,
+         ClonePartInfo,
+         ReadPartInfo,
+         WritePartInfo,
+#// Layout
+         AttachSourceFrame,
+         ContainingPartPropertiesUpdated,
+         DisplayFrameAdded,
+         DisplayFrameClosed,
+         DisplayFrameConnected,
+         DisplayFrameRemoved,
+         FacetAdded,
+         FacetRemoved,
+         FrameShapeChanged,
+         GeometryChanged,
+         Open,
+         SequenceChanged,
+#// Imaging
+         CanvasChanged,
+         Draw,
+         GetPrintResolution,
+         HighlightChanged,
+         PresentationChanged,
+         ViewTypeChanged,
+#// Activation
+         BeginRelinquishFocus,
+         CommitRelinquishFocus,
+         AbortRelinquishFocus,
+         FocusAcquired,
+         FocusLost,
+#// User Events
+         HandleEvent,
+         AdjustMenus,
+#// Binding
+         ChangeKind,
+#// Memory Management
+         ReleaseAll,
+#// Linking
+         LinkStatusChanged;
+
+
+         passthru C_xh        = "#define METHOD_MACROS"
+                                "#define VARIABLE_MACROS";
+         passthru C_xh_after  = "";
+         passthru C_xih       = "#define INCL_BASE"
+                                "#define INCL_PM"
+                                "#define INCL_OD"
+                                "#include <os2.h>"
+                                "#include <od.h>";
+         passthru C_xih_after = "#include <ordcoll.h>"
+                                "#include <storutil.h>"
+                                "#include <mlogimpl.h>"
+                                "#include <focuslib.h>"
+                                "#include <string.h>"
+                                "#include <time.h>"
+                                "#include <common.hpp>"
+                                "#include <istring.hpp>"
+                                "#include <partinfo.hpp>"
+                                "#include <frminfo.hpp>"
+                                "#define IDS_BASE        WM_USER"
+                                "#define IDS_OPENWINDOW  WM_USER + 10"
+                                "#define WM_HANDLEFOCUS  WM_USER + 20"
+                                "#define ID_MENU         WM_USER + 21"
+                                "#define ID_POPUP        WM_USER + 22"
+                                "#define IDS_COLOR       WM_USER + 23"
+                                "#define IDS_BLUE        WM_USER + 24"
+                                "#define IDS_RED         WM_USER + 25"
+                                "#define IDS_YELLOW      WM_USER + 26"
+                                "#define IDS_WHITE       WM_USER + 27"
+                                "#define IDS_BLACK       WM_USER + 28"
+                                "#define HelloPartMethodDebug(A,B)   DebugLog(\"%s %s\",A,B)"
+                                "#define M_HelloPartMethodDebug(A,B) DebugLog(\"%s %s\",A,B)";
+
+
+#ifdef __PRIVATE__
+
+         ODSession             fSession;
+         ODArbitrator          fArb;
+         ODPart                fSelf;
+         ODFocusSet            fFocusSet;
+         ODMenuBar             fMenuBar;
+         ODPopup               fPopup;
+         ODxOrderedCollection  fDisplayFrames;
+
+#endif // __PRIVATE__
+      };
+#endif // __SOMIDL__
+};
+
+interface M_HelloPart : M_ODPart
+{
+#ifdef __SOMIDL__
+      implementation
+      {
+         functionprefix = M_Hello;
+      override:
+         clsGetODPartHandlerName,
+         clsGetODPartHandlerDisplayName,
+         clsGetODPartKinds,
+         clsGetOLE2ClassId,
+         clsGetWindowsIconFileName;
+      };
+#endif
+};
+
+#endif // _HELLO_
+//                              "#include <odmenuid.h>";
+

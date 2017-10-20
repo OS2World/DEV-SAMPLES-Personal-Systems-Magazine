@@ -1,0 +1,43 @@
+/*Currently, a Garage will transiently store cars in a garage*/
+
+#include <somobj.idl>
+#include <car.idl>
+
+interface Ticket;
+interface Garage : SOMObject
+ {
+
+  exception CarMissing
+   {
+    long errorCode;
+    char reason[80];
+   };
+
+  const long PARKING_SPACES=10000;
+
+  attribute sequence <Car,PARKING_SPACES> garage_lot;
+
+  void storeCar(in Car aCar, in Ticket aTicket);
+  Car removeCar(in Ticket aTicket) raises(CarMissing);
+  void listCars();
+  long getCarCount();
+  long getAvailableParkingSlot();
+  void removeAllCars();
+
+  #ifdef __SOMIDL__
+  implementation
+   {
+    passthru C_xh_before =    "#include \"Ticket.xh\""
+                              "#include \"Car.xh\""
+                              "#include <iostream.h>";
+
+
+    dllname = "garage.dll";
+    releaseorder : storeCar, removeCar, getCarCount, listCars, 
+                   getAvailableParkingSlot, removeAllCars;
+    somDefaultInit: override, init;
+    somDestruct: override;
+   };
+  #endif
+ };
+
