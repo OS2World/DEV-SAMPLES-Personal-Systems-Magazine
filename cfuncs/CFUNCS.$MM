@@ -1,0 +1,32 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..C .LIB .dll .obj 
+:TARGET.all
+:DEPENDENCY.
+d:\greg\ti96\sample\cfuncs\cfuncs.LIB
+:RULE..C.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /DSTATIC_LINK /Ss /Ti /Ge- /Fo"%|dpfF.obj" /C %s
+:RULE..dll.LIB
+:ACTION.Lib::Import Lib
+:COMMAND.
+implib.exe %|dpfF.LIB %s
+:TARGET.d:\greg\ti96\sample\cfuncs\cfuncs.dll
+:DEPENDENCY.
+d:\greg\ti96\sample\cfuncs\CFuncs.obj
+d:\greg\ti96\sample\cfuncs\cfuncs.def
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+ /B" /de /noe"
+ /Fed:\greg\ti96\sample\cfuncs\cfuncs.dll 
+ d:\greg\ti96\sample\cfuncs\cfuncs.def
+ d:\greg\ti96\sample\cfuncs\CFuncs.obj
+<<
+:TARGET.d:\greg\ti96\sample\cfuncs\CFuncs.obj
+:DEPENDENCY.
+d:\greg\ti96\sample\cfuncs\CFuncs.C
+{d:\greg\ti96\sample\cfuncs;$(INCLUDE);}CFuncs.h
+:TARGET.d:\greg\ti96\sample\cfuncs\cfuncs.LIB
+:DEPENDENCY.
+d:\greg\ti96\sample\cfuncs\cfuncs.dll

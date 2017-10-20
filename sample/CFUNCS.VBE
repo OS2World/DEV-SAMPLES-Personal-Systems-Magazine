@@ -1,0 +1,11 @@
+//VBBeginPartInfo: CFunctions, "C functions"
+//VBIncludes: "cfuncs.h" cfuncs_h
+//VBPartDataFile: 'cfuncs.vbb'
+//VBComposerInfo: functions, 701, dde4vr30
+//VBAction: convertFahrenToCelsius, "Converts Fahrenheit to Celsius", int,
+//VB:         int convertFahrenToCelsius( int fahrenheit )
+//VBAction: convertCelsiusToFahren, "Converts Celsius to Fahrenheit", int,
+//VB:         int convertCelsiusToFahren( int celsius )
+//VBPreferredFeatures: convertFahrenToCelsius, convertCelsiusToFahren
+//VBEndPartInfo: CFunctions
+

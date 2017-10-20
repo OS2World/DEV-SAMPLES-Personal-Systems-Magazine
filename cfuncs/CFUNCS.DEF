@@ -1,0 +1,13 @@
+
+;-----------------------------------------------------
+; CFuncs.def Module definition file for the DLL
+;-----------------------------------------------------
+
+LIBRARY CFuncs INITINSTANCE TERMINSTANCE
+PROTMODE
+DATA MULTIPLE NONSHARED READWRITE LOADONCALL
+CODE LOADONCALL
+EXPORTS       
+   convertFahrenToCelsius
+   convertCelsiusToFahren
+
